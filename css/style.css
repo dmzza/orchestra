@@ -1,3 +1,8 @@
+body {
+	padding: 25px 0;
+	border:6px solid rgb(159, 1, 255);
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
@@ -18,4 +23,28 @@ h6 {
 
 .logo {
 	text-align: center;
+}
+
+.nav-pills {
+	font-family: 'Georgia', serif;
+	font-style: italic;
+	font-size: 0.8em;
+	letter-spacing: 2px;
+}
+
+.nav-pills>li>a {
+	border-radius: 0;
+	border:2px solid white;
+	color: black;
+	padding: 4px 9px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li>a:hover {
+	color: black;	
+	background-color: white;
+	border:2px solid rgb(159, 1, 255);
+}
+
+.nav-pills>li.active>a {
+	color: rgb(159, 1, 255);
 }
