@@ -22,10 +22,24 @@ h3 {
 	letter-spacing: 5px;
 }
 
+h5 {
+	font-size: 0.9em;
+	font-weight: 700;
+	letter-spacing: 3px;
+	line-height: 2em;
+}
+
 h6 {
 	font-size: 0.54em;
 	letter-spacing: 2px;
 	color: #a0a0a0;
+}
+
+hr {
+	height: 9px;
+	background: url('/img/squiggle.png') no-repeat 50% 50%;
+	border:0;
+	padding: 40px 0;
 }
 
 .logo {

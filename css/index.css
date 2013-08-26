@@ -12,3 +12,16 @@
 .mini-feature h3 {
 	padding: 140px 0;
 }
+
+.event {
+	margin-bottom: 40px;
+}
+
+.event p {
+	font-family: 'Georgia', serif;
+	font-style: italic;
+	font-size: 0.9em;
+	line-height: 0.9em;
+	letter-spacing: 2px;
+}
+
