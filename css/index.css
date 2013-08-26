@@ -25,3 +25,10 @@
 	letter-spacing: 2px;
 }
 
+.sponsors {
+	text-align: center;
+}
+
+.sponsors img {
+	margin: 40px 0;
+}

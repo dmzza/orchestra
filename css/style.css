@@ -104,3 +104,14 @@ h2.logo {
 .header nav {
 	margin-top: 48px;
 }
+
+.copyright {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	color: rgb(149,149,149);
+	margin-top: 50px;
+}
