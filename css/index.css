@@ -1,4 +1,14 @@
 .container .jumbotron {
 	border-radius: 0px;
 	height: 480px;
+	margin-bottom: 15px;
+}
+
+.mini-feature {
+	background-color: #eee;
+	text-align: center;
+}
+
+.mini-feature h3 {
+	padding: 140px 0;
 }
