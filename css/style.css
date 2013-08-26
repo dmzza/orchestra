@@ -26,6 +26,10 @@ h6 {
 	text-align: center;
 }
 
+h2.logo {
+	padding-left: 0;
+}
+
 .nav-pills {
 	font-family: 'Georgia', serif;
 	font-style: italic;
