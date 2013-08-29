@@ -27,6 +27,7 @@ h3 {
 	font-size: 2em;
 	font-weight: 800;
 	letter-spacing: 6px;
+	line-height: 2em;
 }
 
 h4 {
@@ -52,6 +53,7 @@ p {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	letter-spacing: 2px;
+	line-height: 1.8em;
 }
 
 em {
@@ -107,6 +109,10 @@ div.logo {
 
 .nav-pills>li.active>a {
 	color: rgb(136, 86, 254);
+}
+
+.navbar {
+	border-radius: 0;
 }
 
 .navbar-nav {
