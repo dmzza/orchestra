@@ -13,7 +13,7 @@
     <!-- Web Fonts -->
     <script type="text/javascript" src="//use.typekit.net/kpt0xes.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:500,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
@@ -29,7 +29,7 @@
     <![endif]-->
   </head>
 
-  <body data-spy="scroll" data-target="section-nav">
+  <body data-spy="scroll" data-target="#section-nav">
     <div class="container">
       <!--[if lt IE 7]>
           <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -43,13 +43,15 @@
       </div>
       <div class="row header">
         <div class="col-md-4 col-sm-6 col-xs-5">
-          <h2 class="logo col-sm-1 hidden-xs">/</h2>
-          <h3 class="logo col-xs-2 visible-xs">/</h3>
-          <div class="logo col-lg-8 col-md-11 col-sm-8 col-xs-10">
-            <h2 class="hidden-xs">Clarion</h2>
-            <h3 class="visible-xs">Clarion</h3>
-            <h6 class="hidden-xs">Steven Fox / Artistic Director</h6>
-          </div>
+          <a href="/">
+            <h2 class="logo col-sm-1 hidden-xs">/</h2>
+            <h4 class="logo col-xs-2 visible-xs">/</h4>
+            <div class="logo col-lg-8 col-md-11 col-sm-8 col-xs-10">
+              <h2 class="hidden-xs">Clarion</h2>
+              <h4 class="visible-xs">Clarion</h4>
+              <h6 class="hidden-xs">Steven Fox / Artistic Director</h6>
+            </div>
+          </a>
         </div>
         <nav class="navbar pull-right" role="navigation">
           <div class="navbar-header">
@@ -82,25 +84,15 @@
 
       <h1>/ About</h1>
 
-      <nav id="section-nav" class="navbar" data-spy="affix" data-offset-top="300" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#orchestra">Orchestra</a></li>
-            <li><a href="#choir">Choir</a></li>
-            <li><a href="#stevenfox">Steven Fox</a></li>
-            <li><a href="#staff">Staff</a></li>
-            <li><a href="#press">Press</a></li>
-          </ul>
-        </div>
+      <nav id="section-nav" class="navbar hidden-xs" data-spy="affix" data-offset-top="300" role="navigation">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#overview">Overview</a></li>
+          <li><a href="#orchestra">Orchestra</a></li>
+          <li><a href="#choir">Choir</a></li>
+          <li><a href="#stevenfox">Steven Fox</a></li>
+          <li><a href="#staff">Staff</a></li>
+          <li><a href="#press">Press</a></li>
+        </ul>
       </nav>
 
       <section id="overview" class="row">
@@ -133,6 +125,22 @@
         </p>
       </div>
       <div class="col-md-6"><img src="http://placehold.it/600x600/eeeeee/eeeeee" class="img-responsive"></div>
+      </section>
+
+      <section id="choir" class="row">
+      <div class="col-md-6"><img src="http://placehold.it/600x600/eeeeee/eeeeee" class="img-responsive"></div>
+      <div class="col-md-6">
+        <h3>Choir</h3>
+        <p>
+          The Clarion Society was founded in 1957 by pioneering musicologist and conductor Newell Jenkins. In the 1970s, it became one of the first New York ensembles to begin performing on period instruments. Today, the Clarion Society is comprised of the renowned Clarion Orchestra, and the celebrated vocal ensemble, the Clarion Choir. 
+        </p>
+        <p>
+          Clarion has been presented at Lincoln Center on the White Light and Tully Scope Festivals, and with Juilliard415 at Alice Tully Hall. The group has also performed at Weill Recital Hall at Carnegie Hall, the Brooklyn Academy of Music, the Miller Theatre and St. Paul’s Chapel at Columbia University, the Morgan Library, Bargemusic, and the Aston Magna Festival. 
+        </p>
+        <p>
+          Clarion recently recorded Handel's Judas Maccabeus (1751 complete version), and this coming year makes its first international appearance under the direction of Steven Fox, at the Quebec City International Festival of Sacred Music.
+        </p>
+      </div>
       </section>
 
       <div class="copyright">

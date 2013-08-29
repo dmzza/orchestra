@@ -24,6 +24,12 @@ h2 {
 }
 
 h3 {
+	font-size: 2em;
+	font-weight: 800;
+	letter-spacing: 6px;
+}
+
+h4 {
 	font-size: 1.4em;
 	font-weight: 700;
 	letter-spacing: 5px;
@@ -42,6 +48,20 @@ h6 {
 	color: #a0a0a0;
 }
 
+p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+em {
+	font-family: 'Georgia', serif;
+	font-style: italic;
+	font-size: 0.9em;
+	line-height: 0.9em;
+	letter-spacing: 2px;
+}
+
 hr {
 	height: 9px;
 	background: url('/img/squiggle.png') no-repeat 50% 50%;
@@ -49,11 +69,15 @@ hr {
 	padding: 40px 0;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 .logo {
 	text-align: center;
 }
 
-h2.logo, h3.logo {
+h2.logo, h4.logo {
 	padding-left: 0;
 }
 
@@ -109,6 +133,10 @@ div.logo {
 	padding: 15px 0;
 }
 
+.navbar-nav>li.active>a {
+	color: rgb(136, 86, 254);
+}
+
 .navbar-collapse {
 	padding: 0;
 }
@@ -129,14 +157,6 @@ div.logo {
 
 .event {
 	margin-bottom: 40px;
-}
-
-.event p {
-	font-family: 'Georgia', serif;
-	font-style: italic;
-	font-size: 0.9em;
-	line-height: 0.9em;
-	letter-spacing: 2px;
 }
 
 .copyright {

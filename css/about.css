@@ -1,3 +1,11 @@
 .navbar.affix {
 	top:50px;
 }
+
+section h3 {
+	text-align: center;
+}
+
+section p {
+	text-align: justify;
+}
