@@ -17,10 +17,22 @@
 	margin: 0 auto;
 }
 
+section {
+	padding: 40px 0;
+}
+
 section h3 {
 	text-align: center;
 }
 
 section p {
 	text-align: justify;
+}
+
+#staff h3 {
+	text-align: left;
+}
+
+#staff h4 {
+	color: black;
 }

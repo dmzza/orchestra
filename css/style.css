@@ -51,17 +51,25 @@ h6 {
 
 p {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
+	font-weight: 500;
 	letter-spacing: 2px;
-	line-height: 1.8em;
+	line-height: 1.5;
 }
 
-em {
+em, dd {
 	font-family: 'Georgia', serif;
 	font-style: italic;
 	font-size: 0.9em;
 	line-height: 0.9em;
 	letter-spacing: 2px;
+}
+
+dt {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+	line-height: 2.5;
+	margin-top: 20px;
 }
 
 hr {
