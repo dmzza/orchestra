@@ -92,6 +92,10 @@ a:hover {
 	text-decoration: none;
 }
 
+.black {
+	color: black;
+}
+
 .logo {
 	text-align: center;
 }
@@ -180,6 +184,12 @@ div.logo {
 
 .header nav {
 	margin-top: 48px;
+}
+
+.container .jumbotron {
+	border-radius: 0px;
+	height: 480px;
+	margin-bottom: 15px;
 }
 
 .event {
