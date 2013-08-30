@@ -95,6 +95,10 @@ div.logo {
 	padding: 0;
 }
 
+.col-xs-12>img {
+	margin: 60px auto;
+}
+
 .nav-pills {
 	font-family: 'Georgia', serif;
 	font-style: italic;
