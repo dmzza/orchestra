@@ -79,6 +79,15 @@ hr {
 	padding: 40px 0;
 }
 
+article {
+	text-align: left;
+}
+
+article h5 {
+	color: black;
+	text-transform: none;
+}
+
 a:hover {
 	text-decoration: none;
 }
