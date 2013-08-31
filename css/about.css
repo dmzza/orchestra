@@ -1,9 +1,12 @@
 .navbar.affix {
 	top:0px;
+	border-style: solid;
+	border-color: rgb(136, 86, 254);
+	border-width: 0 6px;
 }
 
 .affix + section {
-    padding-top:70px
+    margin-top:80px
 }
 
 #section-nav {
@@ -15,10 +18,6 @@
 #section-nav .nav-justified {
 	max-width: 800px;
 	margin: 0 auto;
-}
-
-section {
-	padding: 40px 0;
 }
 
 section h3 {
