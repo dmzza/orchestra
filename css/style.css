@@ -240,6 +240,28 @@ div.logo {
 	display: block;
 }
 
+.form-control {
+	border:0;
+	border-bottom: 3px solid #999;
+	border-radius: 0;
+	box-shadow: none;
+	background: transparent;
+	padding-left: 0;
+	margin-top: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.4em;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	height: 50px;
+	width: 93%;
+}
+
+.form-control:focus {
+	box-shadow: none;
+	border-color: #999;
+}
+
 .copyright {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
