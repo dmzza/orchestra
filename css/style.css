@@ -4,6 +4,10 @@ body {
 	background-color: rgb(253,253,253);
 }
 
+.container {
+	max-width: 1070px;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
@@ -80,7 +84,7 @@ hr {
 }
 
 section {
-	padding: 60px 0;
+	padding: 40px 0;
 }
 
 article {
@@ -104,7 +108,7 @@ a:hover {
 	text-decoration: none;
 }
 
-.btn-default {
+.btn-default, .btn-default:hover {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	letter-spacing: 5px;
@@ -112,6 +116,7 @@ a:hover {
 	text-align: center;
 	color: rgb(136, 86, 254);
 	border: 5px solid rgb(136, 86, 254);
+	background-color: transparent;
 	border-radius: 0;
 	padding: 10px 15px;
 }
@@ -151,13 +156,12 @@ div.logo {
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li>a:hover {
-	color: rgb(20,20,20);	
+	color: rgb(136, 86, 254);	
 	background-color: transparent;
-	border:2px solid rgb(136, 86, 254);
 }
 
 .nav-pills>li.active>a {
-	color: rgb(136, 86, 254);
+	border:2px solid rgb(136, 86, 254);
 }
 
 .navbar {
@@ -180,6 +184,7 @@ div.logo {
 
 .navbar ul>li>a:hover {
 	background-color: transparent;
+	color: rgb(136, 86, 254);
 }
 
 .navbar ul>li.divider {
@@ -232,19 +237,6 @@ div.logo {
 }
 
 /* 
-general: 
-smaller page width
-purple on nav a hover instead of boxes
-remove button hover states
-
-
-about:
-
-staff and spacing
-press sub headline sentence case and black
-spacing for sections
-double sub nav height 
-
 education:
 
 schools unindent
