@@ -1,13 +1,32 @@
 .mini-feature {
-	background-color: #eee;
 	text-align: center;
 }
 
-.mini-feature h4 {
-	padding: 140px 0;
+.mini-feature img.hover {
+	display: none;
+}
+
+.mini-feature:hover img {
+	display: none;
+}
+.mini-feature:hover img.hover {
+	display: block;
+}
+
+
+.mini-feature img:hover {
+	opacity: 0.6;
+}
+
+.mini-feature img {
 	margin-top: 15px;
+	width: 100%;
 }
 
 .sponsors {
 	text-align: center;
+}
+
+.col-xs-12>img {
+	margin: 15px auto;
 }

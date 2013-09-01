@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-	max-width: 1070px;
+	max-width: 1046px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -223,6 +223,18 @@ div.logo {
 
 .event {
 	margin-bottom: 40px;
+}
+
+.event img.hover {
+	display: none;
+}
+
+.event:hover img {
+	display: none;
+}
+
+.event:hover img.hover {
+	display: block;
 }
 
 .copyright {
