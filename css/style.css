@@ -224,6 +224,8 @@ div.logo {
 
 .event {
 	margin-bottom: 40px;
+	display: block;
+	color: black;
 }
 
 .event img.hover {

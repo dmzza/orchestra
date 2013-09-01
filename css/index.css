@@ -9,13 +9,9 @@
 .mini-feature:hover img {
 	display: none;
 }
+
 .mini-feature:hover img.hover {
 	display: block;
-}
-
-
-.mini-feature img:hover {
-	opacity: 0.6;
 }
 
 .mini-feature img {
