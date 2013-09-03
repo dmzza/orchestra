@@ -279,6 +279,7 @@ div.logo {
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
 	filter: grayscale(100%);
+	width: 100%;
 }
 
 .copyright {
