@@ -89,7 +89,7 @@ section {
 }
 
 article {
-	text-align: left;
+	text-align: justify;
 }
 
 article h5 {
@@ -266,6 +266,12 @@ div.logo {
 .form-control:focus {
 	box-shadow: none;
 	border-color: #999;
+}
+
+.map {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
 .copyright {
