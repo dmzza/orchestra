@@ -21,7 +21,6 @@ h1 {
 	letter-spacing: 10px;
 	text-align: center;
 	margin-top: 45px;
-	margin-bottom: -45px;
 }
 
 h2 {
@@ -84,6 +83,12 @@ hr {
 	background: url('/img/squiggle.png') no-repeat 50% 50%;
 	border:0;
 	padding: 40px 0;
+}
+
+h1 + hr {
+	padding-top: 0;
+	margin-bottom: 40px;
+	margin-top: -15px;
 }
 
 section {
