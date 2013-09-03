@@ -6,3 +6,7 @@
 article ul {
 	padding-left: 0;
 }
+
+article p {
+	margin: 15px 0;
+}

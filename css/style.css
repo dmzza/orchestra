@@ -241,6 +241,10 @@ div.logo {
 	color: black;
 }
 
+.event h5 {
+	margin-bottom: 15px;
+}
+
 .event img.hover {
 	display: none;
 }
