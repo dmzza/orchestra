@@ -1,18 +1,19 @@
-.navbar.affix {
-	top:0px;
-	border-style: solid;
-	border-color: rgb(136, 86, 254);
-	border-width: 0 6px;
-}
-
 .affix + section {
     margin-top:121px
 }
 
 #section-nav {
-	background-color: rgba(253,253,253,0.9);
+	background-color: rgba(253,253,253,1.0);
 	width: 100%;
 	left:0;
+}
+
+#section-nav.affix {
+	top:0px;
+	border-style: solid;
+	border-color: rgb(136, 86, 254);
+	border-width: 0 6px;
+	background-color: rgba(253,253,253,0.9);
 }
 
 #section-nav .nav-justified {
