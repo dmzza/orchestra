@@ -117,6 +117,15 @@ article li {
 	list-style: none;
 }
 
+article a {
+	text-decoration: underline;
+	color: black;
+}
+
+article a:hover, article a:hover h5 {
+	color: rgb(136, 86, 254);
+}
+
 hr + h3 {
 	text-align: center;
 	margin-top: 30px;
