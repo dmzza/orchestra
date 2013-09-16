@@ -90,7 +90,20 @@
       <section class="row details">
         <div class="col-sm-4">
           <h5>Subscription</h5>
-          <a href="#" class="btn btn-default">Buy Now</a>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="YKADE4HZ9TPXL">
+            <input type="hidden" name="on0" value="Seating">
+            <select name="os0">
+              <option value="General Seating for October, April, and May">$85 General Seating - Oct, Apr, &amp; May</option>
+              <option value="Preferred Seating for October and May, General Seating for April">$110 Preferred - Oct &amp; May, General - April</option>
+              <option value="Rows 1 and 2 for October and May, General Seating for April">$150 Rows 1&amp;2 - Oct &amp; May, General - April</option>
+            </select>
+            <br><br>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="submit" class="btn btn-default" border="0" name="submit" value="Buy Now" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
         </div>
         <div class="col-sm-8">
           <h4>The Clarion Orchestra Concert Series</h4>
