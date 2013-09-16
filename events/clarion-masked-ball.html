@@ -98,7 +98,21 @@
           <em>7pm</em>
 
           <h5>Tickets or Donations</h5>
-          <a href="#" class="btn btn-default">Buy Now</a>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="66QDSYY395QXY">
+            <input type="hidden" name="on0" value="Seating">
+            <select name="os0">
+              <option value="Patron Ticket">Patron Ticket $300.00 USD</option>
+              <option value="Young Friends Ticket">Young Friends Ticket $175.00 USD</option>
+              <option value="Patron Table (seats up to 10)">Patron Table (seats up to 10) $3,000.00 USD</option>
+              <option value="Gold Sponsor Table (seats up to 10)">Gold Sponsor Table (seats up to 10) $5,000.00 USD</option>
+            </select>
+            <br><br>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="submit" class="btn btn-default" border="0" name="submit" value="Buy Now" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
         </div>
         <div class="col-sm-8">
           <h4>Fourth Annual Clarion Masked Ball Gala</h4>
