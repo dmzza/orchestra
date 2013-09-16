@@ -162,7 +162,7 @@ h2.logo, h4.logo {
 }
 
 div.logo {
-	padding: 0;
+	margin-left: -48px;
 }
 
 .col-xs-12>img {
