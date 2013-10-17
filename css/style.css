@@ -1,5 +1,5 @@
 body {
-	padding: 25px 0;
+	padding: 25px 40px;
 	border:6px solid rgb(136, 86, 254);
 	background-color: rgb(253,253,253);
 }
@@ -155,14 +155,12 @@ a:hover {
 
 .logo {
 	text-align: left;
+	margin-top: -30px;
+	margin-bottom: 10px;
 }
 
 h2.logo, h4.logo {
 	padding-left: 0;
-}
-
-div.logo {
-	margin-left: -48px;
 }
 
 .col-xs-12>img {
@@ -257,7 +255,7 @@ div.logo {
 }
 
 .event h5 {
-	margin-bottom: 15px;
+	margin-bottom: 3px;
 }
 
 .event img.hover {
