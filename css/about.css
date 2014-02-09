@@ -42,6 +42,11 @@ section p {
 	text-align: justify;
 }
 
+section li {
+	list-style: dot;
+	margin-bottom: 5px;
+}
+
 section div:nth-child(2){
 	padding-right:25px;
 }

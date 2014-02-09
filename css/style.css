@@ -54,7 +54,7 @@ h6 {
 	color: #111;
 }
 
-p, blockquote p {
+p, blockquote p, li {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	font-size: 12px;
@@ -182,7 +182,7 @@ h2.logo, h4.logo {
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li>a:hover {
-	color: rgb(136, 86, 254);	
+	color: rgb(136, 86, 254);
 	background-color: transparent;
 }
 
