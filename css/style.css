@@ -1,6 +1,5 @@
 body {
 	padding: 25px 40px;
-	border:6px solid rgb(136, 86, 254);
 	background-color: rgb(253,253,253);
 }
 
@@ -183,7 +182,6 @@ h2.logo, h4.logo {
 
 .nav-pills {
 	font-family: 'Georgia', serif;
-	font-style: italic;
 	font-size: 0.8em;
 	letter-spacing: 2px;
 }
@@ -274,14 +272,6 @@ h2.logo, h4.logo {
 
 .event img.hover {
 	display: none;
-}
-
-.event:hover img {
-	display: none;
-}
-
-.event:hover img.hover {
-	display: block;
 }
 
 .form-control {
