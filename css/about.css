@@ -10,9 +10,6 @@
 
 #section-nav.affix {
 	top:0px;
-	border-style: solid;
-	border-color: rgb(136, 86, 254);
-	border-width: 0 6px;
 	background-color: rgba(253,253,253,0.9);
 }
 
@@ -79,4 +76,3 @@ section:first-of-type {
 	text-transform: none;
 	margin-bottom: 100px
 }
-
