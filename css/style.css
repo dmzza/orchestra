@@ -314,3 +314,9 @@ h2.logo, h4.logo {
 	margin-top: 50px;
 }
 
+div.blank {
+	height:208px;
+	width:100%;
+	margin-bottom:80px;
+	background-color:#eee;
+}
