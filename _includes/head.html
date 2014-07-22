@@ -7,7 +7,7 @@
   <link rel="shortcut icon" href="favicon.jpg">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-  <title>Clarion Music Society: NYC's Period-Instrument Orchestra Since 1957</title>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
   <!-- Web Fonts -->
   <script type="text/javascript" src="//use.typekit.net/kpt0xes.js"></script>
@@ -19,7 +19,7 @@
 
   <!-- Orchestra CSS -->
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/index.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ page.style | prepend: site.baseurl }}">
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>

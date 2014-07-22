@@ -1,15 +1,34 @@
 ---
 layout: default
 ---
-<div class="post">
-
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-  {{ content }}
-  </article>
-
+<div class="row">
+  <div class="col-xs-12 hidden-xs">
+    <img src="{{ page.hero | prepend: site.baseurl }}" class="img-responsive">
+  </div>
 </div>
+
+<section class="row details">
+  <div class="col-sm-4">
+    <h5>Where</h5>
+    <em>{{ page.location }}</em><br>
+    <em>{{ page.address }}</em>
+
+    <h5>When</h5>
+    <em>{{ page.longdate}}</em><br>
+    <em>{{ page.time }}</em>
+
+  </div>
+  <div class="col-sm-8">
+    <h4>{{ page.title }}</h4>
+    <article>
+      {{ content }}
+    </article>
+    <img class="img-responsive map" src="{{ page.map }}">
+  </div>
+</section>
+
+<hr>
+
+<h3>Events</h3>
+
+{% include schedule.html %}
