@@ -4,7 +4,6 @@ title:  "Victoria in the Velez Blanco Patio"
 
 shortdate:   "03.28"
 longdate: "March 28, 2015"
-date: 2015-03-28
 time: "3pm and 7pm"
 location: "Metropolitan Museum of Art"
 address: "The Velez Blanco Patio"

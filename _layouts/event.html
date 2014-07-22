@@ -49,6 +49,8 @@ layout: default
     <h4>{{ page.title }}</h4>
     <article>
       {{ content }}
+
+      {% if page.subscription %} <p>Clarion offers a discount by purchasing tickets to all three shows of the <a href="/events/subscribe">Clarion Orchestra Concert Series</a>.</p> {% endif %}
     </article>
     <img class="img-responsive map" src="{{ page.map }}">
   </div>
