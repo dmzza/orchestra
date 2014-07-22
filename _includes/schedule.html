@@ -3,7 +3,11 @@
   {% for event in sorted_posts %}
     <div class="col-md-4 col-sm-6">
       <a href="{{ event.url | prepend: site.baseurl }}" class="event">
-        <img src="{{ event.thumbnail | prepend: site.baseurl }}" class="img-responsive">
+        {% if event.thumbnail %}
+          <img src="{{ event.thumbnail | prepend: site.baseurl }}" class="img-responsive">
+        {% else %}
+          <img src="" class="img-responsive blank">
+        {% endif %}
         <h5>{{ event.title }}</h5>
         <em>{{ event.shortdate }}  —  {{ event.location }}</em>
       </a>

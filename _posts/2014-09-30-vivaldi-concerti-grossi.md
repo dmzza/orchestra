@@ -9,5 +9,11 @@ date: 2014-09-30
 time: "8pm"
 location: "Church of St. Thomas More"
 address: "65 East 89th Street (Madison and Park Avenues)"
-map: "http://maps.googleapis.com/maps/api/staticmap?center=Trinity+Church,+Trinity+Place,+New York,+NY&zoom=16&size=700x300&visual_refresh=true&maptype=roadmap&markers=color:green%7Clabel:A%7C40.707914,-74.012018&sensor=false"
+map: "http://maps.googleapis.com/maps/api/staticmap?center=65+East+89th+Street+New York,+NY&zoom=16&size=700x300&visual_refresh=true&maptype=roadmap&markers=color:green%7Clabel:A%7C40.782668,-73.956524&sensor=false"
 ---
+
+##### Double Violin Concerto in A minor, RV 522
+
+##### The Four Seasons
+
+Vivaldi is known and loved today in large part due to the work of Clarion's founder, Newell Jenkins, who discovered, premiered and catalogued many of Vivaldi's finest works. Showcasing the ever-vibrant Four Seasons and the exuberant Concerto in A minor for two violins, this concert celebrates the thrilling virtuosity of The Clarion Orchestra’s soloists and spotlights a central part of the Jenkins legacy.

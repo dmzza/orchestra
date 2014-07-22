@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
+{% if page.hero %}
 <div class="row">
   <div class="col-xs-12 hidden-xs">
     <img src="{{ page.hero | prepend: site.baseurl }}" class="img-responsive">
   </div>
 </div>
+{% endif %}
 
 <section class="row details">
   <div class="col-sm-4">
