@@ -1,7 +1,8 @@
 ---
 layout: event
 title:  "All Beethoven"
-
+thumbnail: "/img/sm_beethoven.jpg"
+hero: "/img/lg_beethoven.jpg"
 shortdate:   "03.15"
 longdate: "March 15, 2015"
 time: "8pm"
