@@ -9,6 +9,7 @@ time: "8pm"
 location: "Greek Archdiocesan Cathedral"
 address: "319 East 74th Street (1st and 2nd Avenues)"
 map: "http://maps.googleapis.com/maps/api/staticmap?center=319+East+74th+Street+New York,+NY&zoom=16&size=700x300&visual_refresh=true&maptype=roadmap&markers=color:green%7Clabel:A%7C40.7698916,-73.9562465&sensor=false"
+paypal: "S67F9Y356P3MG"
 ---
 
 ##### Maximilian Steinberg  (1883-1946) – Passion Week (Premiere)
