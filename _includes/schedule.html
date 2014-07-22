@@ -1,0 +1,13 @@
+<div class="row">
+
+  {% for event in site.events %}
+    <div class="col-md-4 col-sm-6">
+      <a href="{{ event.url | prepend: site.baseurl }}" class="event">
+        <img src="{{ event.thumbnail | prepend: site.baseurl }}" class="img-responsive">
+        <h5>{{ event.title }}</h5>
+        <em>{{ event.shortdate }}  —  {{ event.location }}</em>
+      </a>
+    </div>
+  {% endfor %}
+
+</div>

@@ -1,83 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="favicon.jpg">
-
-    <title>Clarion Music Society: NYC's Period-Instrument Orchestra Since 1957</title>
-
-    <!-- Web Fonts -->
-    <script type="text/javascript" src="//use.typekit.net/kpt0xes.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:500,600,700,800' rel='stylesheet' type='text/css'>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-
-    <!-- Orchestra CSS -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/index.css">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="/js/html5shiv.js"></script>
-      <script src="/js/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
+---
+layout: default
+---
     <div class="container">
-      <!--[if lt IE 7]>
-          <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-      <![endif]-->
-      <div class="row header">
-        <form id="donation-form" action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="1532068">
-        <ul class="nav nav-pills pull-right hidden-xs">
-          <li class="active"><a onclick="document.getElementById('donation-form').submit();" style="cursor:pointer;">Donate</a></li>
-          <li><a href="/contact.html">Join Our Mailing List</a></li>
-          <li><a href="http://www.facebook.com/clarionmusicsociety" target="_blank">Facebook</a></li>
-        </ul>
-        </form>
-      </div>
-      <div class="row header">
-        <div class="col-md-3 col-sm-3 col-xs-5">
-          <a href="/">
-            <div class="logo">
-              <img src="/img/logo.png">
-            </div>
-          </a>
-        </div>
-        <nav class="navbar pull-right" role="navigation">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="about.html">About</a></li>
-              <li class="divider hidden-xs">/</li>
-              <li><a href="schedule.html">Schedule</a></li>
-              <li class="divider hidden-xs">/</li>
-              <li><a href="media.html">Media</a></li>
-              <li class="divider hidden-xs">/</li>
-              <li><a href="education.html">Education</a></li>
-              <li class="divider hidden-xs">/</li>
-              <li><a href="contribute.html">Contribute</a></li>
-              <li class="divider hidden-xs">/</li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
 
       <!-- Page Content -->
 
@@ -105,6 +29,18 @@
       <hr>
 
       <div class="row">
+
+        {% for event in site.events %}
+          <div class="col-md-4 col-sm-6">
+            <a href="{{ event.url | prepend: site.baseurl }}" class="event">
+              <img src="{{ event.thumbnail | prepend: site.baseurl }}" class="img-responsive">
+              <h5>{{ event.title }}</h5>
+              <em>{{ event.date | date: "%b.%-d" }}  —  {{ event.location }}</em>
+            </a>
+          </div>
+        {% endfor %}
+
+
         <div class="col-md-4 col-sm-6">
           <a href="/events/vivaldi-concerti-grossi.html" class="event">
             <img src="/img/sm_vivaldi.jpg" class="img-responsive">
