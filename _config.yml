@@ -6,4 +6,4 @@ url: "http://clarionsociety.org"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /events/:year/:title.html

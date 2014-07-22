@@ -1,3 +1,5 @@
-To launch on localhost:8000
+To launch and watch on localhost:4000
 
-python -mSimpleHTTPServer
+jekyll serve -w
+
+(requires jekyll: gem install jekyll)
