@@ -1,5 +1,6 @@
 <div class="row">
-  {% for event in site.posts %}
+  {% assign sorted_posts = site.posts | sort: 'date' %}
+  {% for event in sorted_posts %}
     <div class="col-md-4 col-sm-6">
       <a href="{{ event.url | prepend: site.baseurl }}" class="event">
         <img src="{{ event.thumbnail | prepend: site.baseurl }}" class="img-responsive">

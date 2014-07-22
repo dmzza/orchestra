@@ -5,6 +5,7 @@ thumbnail: "/img/sm_rachmaninoff.jpg"
 hero: "/img/lg_rachmaninoff.jpg"
 shortdate:   "12.31 &amp; 01.01"
 longdate: "Dec 31, 2014 &amp; Jan 1, 2015"
+date: 2014-12-31
 time: "6pm (12/31) &amp; 5pm (1/1)"
 location: "Trinity Church Wall Street"
 address: "Wall Street at Broadway"
