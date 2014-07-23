@@ -50,7 +50,7 @@ layout: default
     <article>
       {{ content }}
 
-      {% if page.subscription %} <p>Clarion offers a discount by purchasing tickets to all three shows of the <a href="/events/subscribe.html">Clarion Orchestra Concert Series</a>.</p> {% endif %}
+      {% if page.subscription %} <p>Clarion offers a discount by purchasing tickets to all three shows of the <a href="{{ site.baseurl }}/events/subscribe.html">Clarion Orchestra Concert Series</a>.</p> {% endif %}
     </article>
     <img class="img-responsive map" src="{{ page.map }}">
   </div>

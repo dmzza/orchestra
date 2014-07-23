@@ -33,13 +33,13 @@ style: /css/index.css
             <p>
               Enjoy a 20% discount when you purchase all three shows at once.
             </p>
-            <a href="{% post_url 2014-09-30-vivaldi-concerti-grossi %}"><h5>Vivaldi Concerti Grossi</h5></a>
+            <a href="{% post_url 2014-09-30-vivaldi-concerti-grossi | prepend: site.baseurl %}"><h5>Vivaldi Concerti Grossi</h5></a>
             <em>09.30  —  Church of St. Thomas More</em>
 
-            <a href="{% post_url 2015-03-15-all-beethoven %}"><h5>All Beethoven</h5></a>
+            <a href="{% post_url 2015-03-15-all-beethoven | prepend: site.baseurl %}"><h5>All Beethoven</h5></a>
             <em>03.15  —  Church of St. Thomas More</em>
 
-            <a href="{% post_url 2015-05-01-viennese-classic %}"><h5>The Viennese Classic</h5></a>
+            <a href="{% post_url 2015-05-01-viennese-classic | prepend: site.baseurl %}"><h5>The Viennese Classic</h5></a>
             <em>05.01  —  Church of St. Thomas More</em>
           </article>
           <img class="img-responsive map" src="http://maps.googleapis.com/maps/api/staticmap?center=65+East+89th+Street+New York,+NY&zoom=16&size=700x300&visual_refresh=true&maptype=roadmap&markers=color:green%7Clabel:A%7C40.782668,-73.956524&sensor=false">

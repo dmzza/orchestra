@@ -1,7 +1,7 @@
 # Site settings
 title: "Clarion Music Society: NYC's Period-Instrument Orchestra Since 1957"
 description: "The Clarion Society was founded in 1957 by pioneering musicologist and conductor Newell Jenkins. In the 1970s, it became one of the first New York ensembles to begin performing on period instruments. Today, the Clarion Society is comprised of the renowned Clarion Orchestra, and the celebrated vocal ensemble, the Clarion Choir."
-baseurl: ""
+baseurl: "/orchestra"
 url: "http://clarionsociety.org"
 
 # Build settings
