@@ -10,3 +10,9 @@
 	text-align: center;
 	margin-top: 60px;
 }
+
+.col-sm-6 img {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
