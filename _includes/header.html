@@ -3,22 +3,29 @@
 <![endif]-->
 <header class="row header">
   <form id="donation-form" action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post">
-  <input type="hidden" name="cmd" value="_s-xclick">
-  <input type="hidden" name="hosted_button_id" value="1532068">
-  <ul class="nav nav-pills pull-right hidden-xs">
-    <li class="active"><a onclick="document.getElementById('donation-form').submit();" style="cursor:pointer;">Donate</a></li>
-    <li><a href="{{ site.baseurl }}/contact.html">Join Our Mailing List</a></li>
-    <li><a href="http://www.facebook.com/clarionmusicsociety" target="_blank">Facebook</a></li>
-  </ul>
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="1532068">
+    <ul class="nav navbar-nav nav-pills pull-right hidden-xs">
+      <li class="{% if page.url contains 'events' %}active{% endif %}"><a href="{{ site.baseurl }}/events/subscribe.html">Subscribe</a></li>
+      <li class="{% unless page.url contains 'events' %}active{% endunless %}"><a onclick="document.getElementById('donation-form').submit();" style="cursor:pointer;">Donate</a></li>
+      <li><a href="http://www.facebook.com/clarionmusicsociety" target="_blank">Facebook</a></li>
+    </ul>
   </form>
 </header>
 <header class="row header">
-  <div class="col-md-3 col-sm-3 col-xs-5">
-    <a href="{{ site.baseurl }}/">
-      <div class="logo">
-        <img src="{{ site.baseurl }}/img/logo.png">
-      </div>
-    </a>
+  <div class="col-md-5 col-sm-3 col-xs-5">
+    <div class="col-md-6">
+      <a href="{{ site.baseurl }}/">
+        <div class="logo">
+          <img src="{{ site.baseurl }}/img/logo.png">
+        </div>
+      </a>
+    </div>
+    <nav class="col-md-6 navbar fox">
+      <ul class="nav navbar-nav">
+        <li><a class="page-link" href="{{site-url}}/about.html#stevenfox"><h4>Steven Fox</h4>Artistic Director</a></li>
+      </ul>
+    </nav>
   </div>
   <nav class="navbar pull-right" role="navigation">
     <div class="navbar-header">
@@ -31,8 +38,8 @@
     </div>
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
-        {% for page in site.pages %}
-          {% if page.title %}<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>{% endif %}
+        {% for link in site.pages %}
+          {% if link.title %}<li class="{% if link.title == page.title %} active{% endif %}"><a class="page-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a></li>{% endif %}
         {% endfor %}
       </ul>
     </div>
