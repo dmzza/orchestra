@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: rgb(115, 191, 123);
+	color: rgb(241, 140, 46);
 }
 
 h1 {
@@ -126,7 +126,7 @@ article a {
 }
 
 article a:hover, article a:hover h5 {
-	color: rgb(115, 191, 123);
+	color: rgb(241, 140, 46);
 }
 
 hr + h3 {
@@ -145,8 +145,8 @@ a:hover {
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	text-align: center;
-	color: rgb(115, 191, 123);
-	border: 5px solid rgb(115, 191, 123);
+	color: rgb(241, 140, 46);
+	border: 5px solid rgb(241, 140, 46);
 	background-color: transparent;
 	border-radius: 0;
 	padding: 10px 15px;
@@ -198,12 +198,12 @@ h2.logo, h4.logo {
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li>a:hover {
-	color: rgb(115, 191, 123);
+	color: rgb(241, 140, 46);
 	background-color: transparent;
 }
 
 .nav-pills>li.active>a {
-	border:2px solid rgb(115, 191, 123);
+	border:2px solid rgb(241, 140, 46);
 }
 
 .navbar {
@@ -227,17 +227,17 @@ h2.logo, h4.logo {
 
 .navbar ul>li>a:hover {
 	background-color: transparent;
-	color: rgb(115, 191, 123);
+	color: rgb(241, 140, 46);
 }
 
 .navbar ul>li.divider {
 	font-weight: 700;
-	color: rgb(115, 191, 123);
+	color: rgb(241, 140, 46);
 	padding: 15px 0;
 }
 
 .navbar ul>li.active>a {
-	color: rgb(115, 191, 123);
+	color: rgb(241, 140, 46);
 }
 
 .navbar-collapse {
@@ -246,12 +246,12 @@ h2.logo, h4.logo {
 
 .navbar-toggle {
 	background-color: white;
-	border-color: rgb(115, 191, 123);
+	border-color: rgb(241, 140, 46);
 	margin-top: -35px;
 }
 
 .navbar-toggle .icon-bar {
-	background-color: rgb(115, 191, 123);
+	background-color: rgb(241, 140, 46);
 }
 
 .header nav {
