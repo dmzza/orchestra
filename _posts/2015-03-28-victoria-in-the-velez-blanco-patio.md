@@ -16,4 +16,4 @@ tickets: "<a href='http://www.metmuseum.org/events/programs/concerts-and-perform
 
 In a great marriage of music and setting, Clarion makes its debut at the Metropolitan Museum of Art with one of the great Spanish Renaissance masterpieces, Victoria's Requiem, in the Velez Blanco Patio.  The graceful proportions and delicate stonework of this 16th-century courtyard mirror the pristine beauty, elegance, and solemnity of this timeless work.
 
-Image credit: Patio from the Castle of Vélez Blanco, 1506–15. Spanish, Marble of Macael (Sierra de Filabres). Bequest of George Blumenthal, 1941 (41.190.482)
+##### Image credit: Patio from the Castle of Vélez Blanco, 1506–15. Spanish, Marble of Macael (Sierra de Filabres). Bequest of George Blumenthal, 1941 (41.190.482)
