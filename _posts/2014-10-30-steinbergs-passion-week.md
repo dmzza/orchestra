@@ -1,9 +1,10 @@
 ---
 layout: event
 title:  "Steinberg’s Passion Week"
-
+thumbnail: "/img/sm_steinberg.jpg"
+hero: "/img/lg_steinberg.jpg"
 shortdate:   "10.30"
-longdate: "October 30, 2014"
+longdate: "30 October 2014"
 time: "8pm"
 location: "Greek Archdiocesan Cathedral"
 address: "319 East 74th Street (1st and 2nd Avenues)"
