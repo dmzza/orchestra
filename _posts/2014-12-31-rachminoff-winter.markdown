@@ -1,8 +1,8 @@
 ---
 layout: event
 title:  "Rachmaninoff's Vespers"
-thumbnail: "/img/sm_rachmaninoff.jpg"
-hero: "/img/lg_rachmaninoff.jpg"
+thumbnail: "/img/sm_vespers.png"
+hero: "/img/lg_vespers.png"
 shortdate:   "12.31 &amp; 01.01"
 longdate: "31 Dec 2014 &amp; 1 Jan 2015"
 time: "6pm (12/31) &amp; 6pm (1/1)"
