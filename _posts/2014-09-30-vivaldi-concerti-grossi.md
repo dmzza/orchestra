@@ -4,7 +4,7 @@ title:  "Vivaldi Concerti Grossi"
 thumbnail: "/img/sm_vivaldi.jpg"
 hero: "/img/lg_vivaldi.jpg"
 shortdate:   "09.30"
-longdate: "September 30, 2014"
+longdate: "30 September 2014"
 time: "8pm"
 location: "Church of St. Thomas More"
 address: "65 East 89th Street (Madison and Park Avenues)"
@@ -17,4 +17,4 @@ subscription: true
 
 ##### The Four Seasons
 
-Vivaldi is known and loved today in large part due to the work of Clarion's founder, Newell Jenkins, who discovered, premiered and catalogued many of Vivaldi's finest works. Showcasing the ever-vibrant Four Seasons and the exuberant Concerto in A minor for two violins, this concert celebrates the thrilling virtuosity of The Clarion Orchestra’s soloists and spotlights a central part of the Jenkins legacy.
+Vivaldi is known and loved today in large part due to the work of Clarion's founder, Newell Jenkins, who discovered, premiered, and catalogued many of Vivaldi's finest works. Showcasing the ever-vibrant *Four Seasons* and the exuberant Concerto in A minor for two violins, this concert celebrates the thrilling virtuosity of The Clarion Orchestra’s soloists and spotlights a central part of the Jenkins legacy.

@@ -3,7 +3,7 @@ layout: event
 title:  "The Viennese Classic"
 
 shortdate:   "05.01"
-longdate: "May 1, 2015"
+longdate: "1 May 2015"
 time: "8pm"
 location: "Church of St. Thomas More"
 address: "65 East 89th Street (Madison and Park Avenues)"
@@ -12,4 +12,4 @@ paypal: "MF3YDYATNDQEY"
 subscription: true
 ---
 
-Principal players of the Clarion Orchestra, led by concertmaster Cynthia Roberts, perform chamber music of the Viennese Classic period: works of Mozart, Haydn, Beethoven, and Hummel. This will be the finale of the Clarion Collegium Week of master classes, which this year spotlight the Viennese classic repertoire.
+Principal players of The Clarion Orchestra, led by concertmaster Cynthia Roberts, perform chamber music of the Viennese Classic period: works of Mozart, Haydn, Beethoven, and Hummel. This will be the finale of the Clarion Collegium Week of master classes, which this year spotlight the Viennese classic repertoire.
