@@ -43,7 +43,7 @@ h4 {
 h5 {
 	font-size: 0.9em;
 	font-weight: 700;
-	letter-spacing: 1px;
+	letter-spacing: 0.15em;
 	line-height: 2em;
 }
 
@@ -181,8 +181,8 @@ a:hover {
 	margin-bottom: 10px;
 }
 
-h2.logo, h4.logo {
-	padding-left: 0;
+.logo img {
+	width: 192px;
 }
 
 .fox .nav {
@@ -196,7 +196,7 @@ h2.logo, h4.logo {
 .nav li>a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
-	letter-spacing:2px;
+	letter-spacing:0.16em;
 	color:rgb(97,97,97);
 }
 
@@ -266,7 +266,7 @@ h2.logo, h4.logo {
 }
 
 .header nav {
-	margin-top: 43px;
+	margin-top: 36px;
 }
 
 .container .jumbotron {
