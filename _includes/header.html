@@ -23,7 +23,7 @@
     </div>
     <nav class="col-md-6 navbar fox">
       <ul class="nav navbar-nav">
-        <li><a class="page-link" href="{{site-url}}/about.html#stevenfox"><h4>Steven Fox</h4>Artistic Director</a></li>
+        <li><a class="page-link" href="{{ site.baseurl }}/about.html#stevenfox"><h4>Steven Fox</h4>Artistic Director</a></li>
       </ul>
     </nav>
   </div>
@@ -39,7 +39,7 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
         {% assign sorted_pages = site.pages | sort: 'order' %}
-        {% for link in sorted_pages %}
+        {% for link in site.pages %}
           {% if link.title %}<li class="{% if link.title == page.title %} active{% endif %}"><a class="page-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a></li>{% endif %}
         {% endfor %}
       </ul>
