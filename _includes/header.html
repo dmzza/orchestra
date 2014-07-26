@@ -38,7 +38,8 @@
     </div>
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav">
-        {% for link in site.pages %}
+        {% assign sorted_pages = site.pages | sort: 'order' %}
+        {% for link in sorted_pages %}
           {% if link.title %}<li class="{% if link.title == page.title %} active{% endif %}"><a class="page-link" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a></li>{% endif %}
         {% endfor %}
       </ul>
