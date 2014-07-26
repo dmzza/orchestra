@@ -6,9 +6,9 @@ hero: "/img/lg_steinberg.jpg"
 shortdate:   "10.28"
 longdate: "28 October 2014"
 time: "8pm"
-location: "Greek Archdiocesan Cathedral"
-address: "of the Holy Trinity <br> 319 East 74th Street (1st and 2nd Avenues)"
-map: "http://maps.googleapis.com/maps/api/staticmap?center=319+East+74th+Street+New York,+NY&zoom=16&size=700x300&visual_refresh=true&maptype=roadmap&markers=color:green%7Clabel:A%7C40.7698916,-73.9562465&sensor=false"
+location: "To be announced<!--Greek Archdiocesan Cathedral-->"
+address: "<!--of the Holy Trinity <br> 319 East 74th Street (1st and 2nd Avenues)-->"
+map: "http://maps.googleapis.com/maps/api/staticmap?center=319+East+74th+Street+New York,+NY&zoom=9&size=700x300&visual_refresh=true&maptype=roadmap&markers=color:green%7Clabel:A%7C40.7698916,-73.9562465&sensor=false"
 paypal: "S67F9Y356P3MG"
 ---
 
