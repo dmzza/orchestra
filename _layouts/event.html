@@ -11,10 +11,11 @@ layout: default
 
 <section class="row details">
   <div class="col-sm-4">
+    {% if page.location %}
     <h5>Where</h5>
     <em>{{ page.location }}</em><br>
     <em>{{ page.address }}</em>
-
+    {% endif %}
     <h5>When</h5>
     <em>{{ page.longdate}}</em><br>
     <em>{{ page.time }}</em>

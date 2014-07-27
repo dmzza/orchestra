@@ -9,7 +9,7 @@
           <img src="" class="img-responsive blank">
         {% endif %}
         <h5>{{ event.title }}</h5>
-        <em>{{ event.shortdate }}  —  {{ event.location }}</em>
+        <em>{{ event.shortdate }}{% if event.location %}  —  {{ event.location }}{% endif %}</em>
       </a>
     </div>
   {% endfor %}
