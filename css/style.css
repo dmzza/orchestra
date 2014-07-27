@@ -1,3 +1,7 @@
+---
+
+---
+
 body {
 	padding: 25px 40px;
 	background-color: rgb(253,253,253);
@@ -54,24 +58,29 @@ h6 {
 }
 
 p, blockquote p, li {
-	font-family: 'Georgia', serif;
+	font-family: 'Adobe Caslon Pro', serif;
 	font-weight: normal;
 	font-size: 12px;
-	letter-spacing: 1px;
+
+	letter-spacing: 0.5px;
 	line-height: 1.7;
 	color:rgb(97,97,97);
 }
 
-p {
-	font-size:1.05em;
+p, blockquote p {
+	font-size: 1.15em;
+}
+
+p em {
+	font-size: 1em;
 }
 
 em, dd {
-	font-family: 'Georgia', serif;
+	font-family: 'Adobe Caslon Pro', serif;
 	font-style: italic;
-	font-size: 0.9em;
+	font-size: 1.15em;
 	line-height: 1.5;
-	letter-spacing: 2px;
+	letter-spacing: 0.5px;
 }
 
 dt {
@@ -84,7 +93,7 @@ dt {
 
 hr {
 	height: 9px;
-	background: url('/img/squiggle.png') no-repeat 50% 50%;
+	background: url('{{ site.baseurl }}/img/squiggle.png') no-repeat 50% 50%;
 	border:0;
 	padding: 40px 0;
 }
