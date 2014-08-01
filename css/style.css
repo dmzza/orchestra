@@ -34,7 +34,7 @@ h2 {
 h3 {
 	font-size: 2em;
 	font-weight: 800;
-	letter-spacing: 6px;
+	letter-spacing: 4px;
 	line-height: 1;
 }
 
@@ -200,7 +200,7 @@ a:hover {
 }
 
 .col-xs-12>img {
-	margin: 10px auto 15px auto;
+	margin: 0px auto 15px auto;
 }
 
 .nav li>a {
@@ -277,6 +277,7 @@ a:hover {
 
 .header nav {
 	margin-top: 36px;
+	margin-bottom: 17px;
 }
 
 .container .jumbotron {
