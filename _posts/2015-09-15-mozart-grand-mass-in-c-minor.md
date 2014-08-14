@@ -3,6 +3,7 @@ layout: event
 title:  "Mozart Grand Mass in C Minor"
 thumbnail: "/img/sm_mozart.jpg"
 hero: "/img/lg_mozart.jpg"
+season: "2014"
 shortdate:   "09.15"
 longdate: "15 September 2015"
 time: "Time to be announced"

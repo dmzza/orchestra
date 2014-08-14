@@ -3,6 +3,7 @@ layout: event
 title:  "Vivaldi Concerti Grossi"
 thumbnail: "/img/sm_vivaldi.jpg"
 hero: "/img/lg_vivaldi.jpg"
+season: "2014"
 shortdate:   "09.30"
 longdate: "30 September 2014"
 time: "8pm"

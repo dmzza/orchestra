@@ -7,14 +7,25 @@ subscription: true
 order: 2
 ---
 
-      {% include schedule.html %}
+      {% include schedule.html season="2014" %}
 
       <!--<div class="row"><a href="/events/subscribe.html" class="btn btn-default col-md-8 col-md-offset-2">Subscribe to the Clarion Orchestra Series</a></div>-->
 
       <hr>
 
       <h3>Archive of Events</h3>
+
+      <h4>2013-14</h4>
+
+      {% include schedule.html season="2013" %}
+
+      <h4>2012-13</h4>
+
+      {% include schedule.html season="2012" %}
+
       <div class="archive">
+
+
         <ul class="nav nav-pills nav-justified">
           <li class="active"><a href="#2012" data-toggle="tab"><h2>2012</h2></a></li>
           <li><a href="#2011" data-toggle="tab"><h2>2011</h2></a></li>

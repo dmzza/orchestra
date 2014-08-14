@@ -3,6 +3,7 @@ layout: event
 title:  "The Viennese Classic"
 thumbnail: "/img/sm_vienna.jpg"
 hero: "/img/lg_vienna.jpg"
+season: "2014"
 shortdate:   "05.01"
 longdate: "1 May 2015"
 time: "8pm"

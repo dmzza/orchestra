@@ -1,6 +1,7 @@
 <div class="row">
   {% assign sorted_posts = site.posts | sort: 'date' %}
-  {% for event in sorted_posts %}
+  {% assign upcoming_posts = sorted_posts | where: "season",include.season %}
+  {% for event in upcoming_posts %}
     <div class="col-md-4 col-sm-6">
       <a href="{{ event.url | prepend: site.baseurl }}" class="event">
         {% if event.thumbnail %}
@@ -15,4 +16,4 @@
   {% endfor %}
 </div>
 
-{% if page.subscription %} <div class="row"><a href="{{ site.baseurl }}/events/subscribe.html" class="btn btn-default col-md-8 col-md-offset-2">Subscribe to the orchestra series and save</a></div> {% endif %}
+{% if page.subscription %}{% if include.season == "2014" %} <div class="row"><a href="{{ site.baseurl }}/events/subscribe.html" class="btn btn-default col-md-8 col-md-offset-2">Subscribe to the orchestra series and save</a></div> {% endif %}{% endif %}

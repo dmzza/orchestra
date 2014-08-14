@@ -3,6 +3,7 @@ layout: event
 title:  "Clarion Collegium Week"
 thumbnail: "/img/sm_education.jpg"
 hero: "/img/lg_education.jpg"
+season: "2014"
 shortdate:   "04.25 - 05.01"
 longdate: "25 April - 01 May 2015"
 time: "Times to be announced"

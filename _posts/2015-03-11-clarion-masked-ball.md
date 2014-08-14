@@ -3,6 +3,7 @@ layout: event
 title:  "Clarion Masked Ball"
 thumbnail: "/img/sm_masked_ball.jpg"
 hero: "/img/lg_masked_ball.jpg"
+season: "2014"
 shortdate:   "03.11"
 longdate: "11 March 2015"
 time: "7pm"

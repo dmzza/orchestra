@@ -3,6 +3,7 @@ layout: event
 title:  "Steinberg’s Passion Week"
 thumbnail: "/img/sm_steinberg.jpg"
 hero: "/img/lg_steinberg.jpg"
+season: "2014"
 shortdate:   "10.28"
 longdate: "28 October 2014"
 time: "8pm"

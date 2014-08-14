@@ -3,6 +3,7 @@ layout: event
 title:  "Victoria in the Vélez Blanco Patio"
 thumbnail: "/img/sm_velez.jpg"
 hero: "/img/lg_velez.jpg"
+season: "2014"
 shortdate:   "03.28"
 longdate: "28 March 2015"
 time: "3pm & 7pm"

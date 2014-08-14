@@ -3,6 +3,7 @@ layout: event
 title:  "All Beethoven"
 thumbnail: "/img/sm_beethoven.jpg"
 hero: "/img/lg_beethoven.jpg"
+season: "2014"
 shortdate:   "03.02"
 longdate: "02 March 2015"
 time: "8pm"
