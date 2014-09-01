@@ -33,6 +33,7 @@ section hr {
 section h3 {
 	text-align: center;
 	margin-top: -3px;
+  margin-bottom:20px;
 }
 
 section p {
@@ -42,14 +43,6 @@ section p {
 section li {
 	list-style: dot;
 	margin-bottom: 5px;
-}
-
-section div:nth-child(2){
-	padding-right:25px;
-}
-
-section div:nth-child(3) {
-	padding-left:25px;
 }
 
 section:first-of-type {
