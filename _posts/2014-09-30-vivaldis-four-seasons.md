@@ -1,6 +1,6 @@
 ---
 layout: event
-title:  "Vivaldi Concerti Grossi"
+title:  "Vivaldi's Four Seasons"
 thumbnail: "/img/sm_vivaldi.jpg"
 hero: "/img/lg_vivaldi.jpg"
 season: "2014"
