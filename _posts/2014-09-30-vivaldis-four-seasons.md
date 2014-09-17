@@ -16,6 +16,8 @@ subscription: true
 
 ##### Double Violin Concerto in A minor, RV 522
 
+##### Concerto in D Major for lute, RV 93
+
 ##### The Four Seasons
 
 Vivaldi is known and loved today in large part due to the work of Clarion's founder, Newell Jenkins, who discovered, premiered, and catalogued many of Vivaldi's finest works. Showcasing the ever-vibrant *Four Seasons* and the exuberant Concerto in A minor for two violins, this concert celebrates the thrilling virtuosity of The Clarion Orchestra’s soloists and spotlights a central part of the Jenkins legacy.
