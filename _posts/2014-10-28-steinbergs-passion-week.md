@@ -9,7 +9,7 @@ longdate: "28 October 2014"
 time: "8pm"
 location: "Church of St. Jean Baptiste"
 address: "184 East 76th Street (Lexington Avenue)"
-map: "http://maps.googleapis.com/maps/api/staticmap?center=319+East+74th+Street+New York,+NY&zoom=9&size=700x300&visual_refresh=true&maptype=roadmap&markers=color:green%7Clabel:A%7C40.7698916,-73.9562465&sensor=false"
+map: "http://maps.googleapis.com/maps/api/staticmap?center=184+East+76th+Street+New York,+NY&zoom=16&size=700x300&visual_refresh=true&maptype=roadmap&markers=color:green%7Clabel:A%7C40.7725017,-73.9595415&sensor=false"
 paypal: "S67F9Y356P3MG"
 ---
 
