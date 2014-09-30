@@ -44,14 +44,20 @@ layout: default
       <div id="tickets-unavailable" style="display:none">
         <p>Online ticket orders for tonight's concert are no longer available, but tickets can be purchased at the door</p>
       </div>
-      <p>
-      {% endif %}
-
-      {% if page.tickets %}
-      <h5>Tickets</h5>
-      {{ page.tickets }}
-      {% endif %}
     </div>
+    {% endif %}
+
+    {% if page.tickets %}
+    <div id="tickets">
+      <h5>Tickets</h5>
+      <div id="tickets-available">
+        {{ page.tickets }}
+      </div>
+      <div id="tickets-unavailable" style="display:none">
+        <p>Online ticket orders for tonight's concert are no longer available, but tickets can be purchased at the door</p>
+      </div>
+    </div>
+    {% endif %}
   </div>
   <div class="col-sm-8">
     <h4>{{ page.title }}</h4>
