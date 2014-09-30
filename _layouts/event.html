@@ -21,30 +21,37 @@ layout: default
     <em>{{ page.time }}</em>
 
     {% if page.paypal %}
-    <h5>Tickets</h5>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="{{ page.paypal }}">
-      <input type="hidden" name="on0" value="Section">
-      <select name="os0">
-      	<option value="General Seating">General Seating $35.00 USD</option>
-      	<option value="Premium Seating">Premium Seating $50.00 USD</option>
-      	<option value="First Two Rows">First Two Rows $75.00 USD</option>
-      </select>
-      <input type="hidden" name="currency_code" value="USD">
-      <br><br>
-      <input type="submit" class="btn btn-default" border="0" name="submit" value="Buy Now" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
-    <br>
-    <p>Tickets will be held at the door.</p>
-    {% endif %}
+    <div id="tickets">
+      <h5>Tickets</h5>
+      <div id="tickets-available">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="{{ page.paypal }}">
+          <input type="hidden" name="on0" value="Section">
+          <select name="os0">
+          	<option value="General Seating">General Seating $35.00 USD</option>
+          	<option value="Premium Seating">Premium Seating $50.00 USD</option>
+          	<option value="First Two Rows">First Two Rows $75.00 USD</option>
+          </select>
+          <input type="hidden" name="currency_code" value="USD">
+          <br><br>
+          <input type="submit" class="btn btn-default" border="0" name="submit" value="Buy Now" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+        <br>
+        <p>Tickets will be held at the door.</p>
+      </div>
+      <div id="tickets-unavailable" style="display:none">
+        <p>Online ticket orders for tonight's concert are no longer available, but tickets can be purchased at the door</p>
+      </div>
+      <p>
+      {% endif %}
 
-    {% if page.tickets %}
-    <h5>Tickets</h5>
-    {{ page.tickets }}
-    {% endif %}
-
+      {% if page.tickets %}
+      <h5>Tickets</h5>
+      {{ page.tickets }}
+      {% endif %}
+    </div>
   </div>
   <div class="col-sm-8">
     <h4>{{ page.title }}</h4>
@@ -60,3 +67,24 @@ layout: default
 <hr>
 
 {% include schedule.html season=page.season %}
+
+<script type="text/javascript">
+(function() {
+  var eventDate = new Date("{{ page.date }}");
+  var ticketDeadline = new Date("{{ page.date }}");
+  var dayAfter = new Date("{{ page.date }}");
+  var now = new Date();
+  ticketDeadline.setUTCHours(16); // Noon EST
+  dayAfter.setUTCDate(eventDate.getUTCDate() + 1);
+
+  if(ticketDeadline > now) {
+    document.getElementById("tickets-available").style.display = 'block';
+    document.getElementById("tickets-unavailable").style.display = 'none';
+  } else if(dayAfter > now) {
+    document.getElementById("tickets-available").style.display = 'none';
+    document.getElementById("tickets-unavailable").style.display = 'block';
+  } else {
+    document.getElementById("tickets").style.display = 'none';
+  }
+})();
+</script>
