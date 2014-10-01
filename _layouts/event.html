@@ -76,10 +76,17 @@ layout: default
 
 <script type="text/javascript">
 (function() {
-  var eventDate = new Date("{{ page.date }}");
-  var ticketDeadline = new Date("{{ page.date }}");
-  var dayAfter = new Date("{{ page.date }}");
   var now = new Date();
+  var timestamp=Date.parse("{{ page.date }}")
+  var eventDate, ticketDeadline, dayAfter;
+
+  if (isNaN(timestamp)==false) {
+    eventDate = new Date(timestamp);
+    ticketDeadline = new Date(timestamp);
+    dayAfter = new Date(timestamp);
+  } else {
+    return;
+  }
   ticketDeadline.setUTCHours(16); // Noon EST
   dayAfter.setUTCDate(eventDate.getUTCDate() + 1);
 
