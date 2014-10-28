@@ -73,31 +73,28 @@ layout: default
 <hr>
 
 {% include schedule.html season=page.season %}
-<script type="text/javascript" src="js/moment.min.js">
-<script type="text/javascript" src="js/moment-timezone-with-data-2010-2020.min.js">
+<script type="text/javascript" src="/js/moment.min.js"></script>
+<script type="text/javascript" src="/js/moment-timezone-with-data-2010-2020.min.js"></script>
 <script type="text/javascript">
 (function() {
-  var now = new Date();
-  var timestamp= moment("{{ page.date }}");
-  var eventDate, ticketDeadline, dayAfter;
-// TODO: Convert to moment
-  if (isNaN(timestamp)==false) {
-    eventDate = new Date(timestamp);
-    ticketDeadline = new Date(timestamp);
-    dayAfter = new Date(timestamp);
-  } else {
+  var now = moment().tz('America/New_York');
+  var timestamp= moment("{{ page.date }}", "YYYY-MM-DD HH:mm:ss Z").tz('America/New_York');
+  var ticketDeadline, dayAfter;
+
+  if (!timestamp.isValid()) {
+    console.log("invalid timestamp");
     return;
   }
-  ticketDeadline.setUTCHours(16); // Noon EST
-  dayAfter.setUTCDate(eventDate.getUTCDate() + 1);
+  ticketDeadline = timestamp.clone().hour(12); // Noon EST
+  dayAfter = timestamp.clone().add(1, 'day');
 
-  if(ticketDeadline > now) {
+  if(now.isBefore(ticketDeadline)) {
     document.getElementById("tickets-available").style.display = 'block';
     document.getElementById("tickets-unavailable").style.display = 'none';
-  } else if(dayAfter > now) {
+  } else if(now.isBefore(dayAfter)) {
     document.getElementById("tickets-available").style.display = 'none';
     document.getElementById("tickets-unavailable").style.display = 'block';
-  } else {
+  } else { // now is more than a day after the event
     document.getElementById("tickets").style.display = 'none';
   }
 })();
