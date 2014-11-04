@@ -73,13 +73,14 @@ layout: default
 <hr>
 
 {% include schedule.html season=page.season %}
-
+<script type="text/javascript" src="js/moment.min.js">
+<script type="text/javascript" src="js/moment-timezone-with-data-2010-2020.min.js">
 <script type="text/javascript">
 (function() {
   var now = new Date();
-  var timestamp=Date.parse("{{ page.date }}")
+  var timestamp= moment("{{ page.date }}");
   var eventDate, ticketDeadline, dayAfter;
-
+// TODO: Convert to moment
   if (isNaN(timestamp)==false) {
     eventDate = new Date(timestamp);
     ticketDeadline = new Date(timestamp);
