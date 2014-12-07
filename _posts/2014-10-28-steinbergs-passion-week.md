@@ -33,9 +33,11 @@ tickets: '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" tar
 
 The renowned Clarion Choir presents the New York premiere of a long lost Russian liturgy that was sheltered for some 70 years from the threat of communist confiscation: Maximilian Steinberg's *Passion Week*.  Evoking the rich harmonics of Rachmaninoff’s *Vespers*, *Passion Week* is also its stylistic complement: offering its own soaring emotions, but contrasting them with flowing meditations, prismatic reflections, and momentary revelations on the mystical themes of judgment, righteousness, mercy, and redemption.  The concert also will include select movements from Rachmaninoff’s incandescent *Liturgy of St. John Chrysostom*.
 
-#### Video Sample
+#### Live Recording
 
-[Click here](https://www.youtube.com/watch?v=j7oiknuQJRY) for a sample from the world premiere performed in April by Cappella Romana in Portland, OR. Cappella Romana's artistic director will be joining us for an introductory conversation at 7pm, immediately before the concert.
+[Steinberg - Passion Week, Movement 7, 'The Noble Joseph'](https://soundcloud.com/clarion-music-society/steinberg-passion-week?in=clarion-music-society/sets/steinberg-bach-monteverdi-handel)
+
+[Steinberg - Passion Week, Movement 10, 'Arise, O God'](https://soundcloud.com/clarion-music-society/steinberg-passion-week-1?in=clarion-music-society/sets/steinberg-bach-monteverdi-handel)
 
 <hr>
 #### 7pm Pre-Concert Discussion
