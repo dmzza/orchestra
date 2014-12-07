@@ -10,7 +10,7 @@ time: "6pm (12/31) &amp; 6pm (1/1)"
 location: "Trinity Wall Street"
 address: "Wall Street at Broadway"
 map: "http://maps.googleapis.com/maps/api/staticmap?center=Trinity+Church,+Trinity+Place,+New York,+NY&zoom=16&size=700x300&visual_refresh=true&maptype=roadmap&markers=color:green%7Clabel:A%7C40.707914,-74.012018&sensor=false"
-tickets: "<p>Available Fall 2014 on <a href='http://www.gemsny.org/'>gemsny.org</a>.</p>"
+tickets: "<p>Available at <a href='http://www.gemsny.org/twelfthnight2014.html'>gemsny.org</a>.</p>"
 ---
 
 ##### Vespers, Op. 37
