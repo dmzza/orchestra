@@ -35,8 +35,6 @@ The renowned Clarion Choir presents the New York premiere of a long lost Russian
 
 #### Live Recording
 
-[Steinberg - Passion Week, Movement 7, 'The Noble Joseph'](https://soundcloud.com/clarion-music-society/steinberg-passion-week?in=clarion-music-society/sets/steinberg-bach-monteverdi-handel)
-
 [Steinberg - Passion Week, Movement 10, 'Arise, O God'](https://soundcloud.com/clarion-music-society/steinberg-passion-week-1?in=clarion-music-society/sets/steinberg-bach-monteverdi-handel)
 
 <hr>
