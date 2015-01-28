@@ -4,8 +4,8 @@ title:  "Clarion Masked Ball"
 thumbnail: "/img/sm_masked_ball.jpg"
 hero: "/img/lg_masked_ball.jpg"
 season: "2014"
-shortdate:   "03.11"
-longdate: "11 March 2015"
+shortdate:   "04.16"
+longdate: "16 April 2015"
 time: "7pm"
 location: "The Cosmopolitan Club"
 address: "122 East 66th Street"
@@ -17,8 +17,8 @@ tickets: '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" tar
 	<option value="Young Friend (Under-40, limited availability)">Young Friend (Under-40) $250</option>
 	<option value="Patron">Patron $400.00 USD</option>
 	<option value="Patron Table of Ten">Patron Table of Ten $4,000</option>
-	<option value="Gold Sponsor Table of Ten">Gold Sponsor Table of Ten $5,000</option>
-	<option value="Platinum Sponsor Table of Ten">Platinum Sponsor Table of Ten $7,500</option>
+	<option value="Silver Sponsor Table of Ten">Silver Sponsor Table of Ten $5,000</option>
+	<option value="Gold Sponsor Table of Ten">Gold Sponsor Table of Ten $7,500</option>
 </select>
 <input type="hidden" name="currency_code" value="USD"><br><br>
 <input type="submit" class="btn btn-default" border="0" name="submit" value="Buy Now" alt="PayPal - The safer, easier way to pay online!">
