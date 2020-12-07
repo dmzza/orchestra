@@ -7,7 +7,7 @@ See `/.bundle/config` to change this configuration.
 
 To launch and watch on localhost:4000
 
-    jekyll serve --baseurl '' -w
+    jekyll serve --baseurl '' -w --future
 
 (requires jekyll: gem install jekyll)
 

@@ -6,7 +6,7 @@
     },
     "run" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\nbundle exec jekyll serve --baseurl '' -w"
+      "script" : "#!\/bin\/sh\nbundle exec jekyll serve --baseurl '' -w --future"
     }
   },
   "identifier" : "310313AB-D924-429C-B1DC-036CB90045D1",

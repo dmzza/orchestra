@@ -9,6 +9,7 @@ markdown: kramdown
 permalink: /events/:year/:title.html
 safe: true
 lsi: false
+future: true
 exclude:
   - Gemfile
   - Gemfile.lock
