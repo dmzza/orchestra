@@ -1,8 +1,8 @@
 {
   "identifier" : "35602868-3684-4FE0-9CA6-556DC23DCEC8",
-  "localPath" : "_2020-archive",
-  "remotePath" : "\/",
-  "remoteURL" : "http:\/\/clarionsociety.org",
+  "localPath" : "_site",
+  "remotePath" : "\/staging",
+  "remoteURL" : "http:\/\/clarionsociety.org\/staging",
   "server" : "Clarion",
   "usesPublishing" : true
 }
