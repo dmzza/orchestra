@@ -4,5 +4,5 @@
   "remotePath" : "\/",
   "remoteURL" : "http:\/\/clarionsociety.org",
   "server" : "Clarion",
-  "usesPublishing" : false
+  "usesPublishing" : true
 }
