@@ -1,0 +1,74 @@
+<!-- CANDYBOX of 2017-18 Season events each in its own div -->
+<!-- Small (sm_) graphics 318 x 208 -->
+<!-- Three/row for sm_ (laptops) and larger; Two/row for sm_ (tablets); One/row for phones -->
+
+<div class="row">
+
+<!-- col-md-6 for two columns instead of col-md-4 for three columns -->
+<!-- amending original 2016 3 columns, getting rid of 1. and 3. -->
+<!-- then center things instead of flush left -->
+
+	
+<!-- 1. Handel Royal Fireworks and Water Music -->	
+	<div class="col-md-4 col-sm-6" align="center">	
+	<a href="http://www.clarionsociety.org/events/2017-18-season/handel_royal.html" class="event">
+		<img src="/img/sm_handel_fireworks2.jpg" class="img-responsive">
+		<h5>Handel Royal Fireworks<!-- and Water Music--></h5>
+    	<em>6 November 2017<br />
+    	Church of St. Thomas More</em>
+	</a>
+	</div> 
+
+<!-- 2. Russian New Year's Program -->	
+	<div class="col-md-4 col-sm-6" align="center">	
+	<a href="/events/2017-18-season/russian_new_year.html" class="event">
+		<img src="/img/sm_russian_new_year.jpg" class="img-responsive">
+		<h5>Russian New Year's Program</h5>
+		<em>31 December 2017 & 1 January 2018<br />
+		Church of the Resurrection</em>	
+	</a>
+  </div>
+
+<!-- 3. Clarion at the Met -->
+	<div class="col-md-4 col-sm-6" align="center">
+	<a href="/events/2017-18-season/clarion_met.html" class="event">
+		<img src="/img/sm_clarion_at_met.jpg" class="img-responsive">
+		<h5>Clarion At the Met</h5>
+    	<em>6 April 2018<br />
+    	The Metropolitan Museum of Art</em>
+	</a>
+	</div>
+    
+<!-- 4. Annual Masked Gala -->
+    <div class="col-md-4 col-sm-6" align="center">
+	<a href="/events/2017-18-season/masked_gala.html" class="event">
+		<img src="/img/sm_masked_ball_2018.jpg" class="img-responsive">
+		<h5>Annual Masked Gala</h5>
+		<em>18 April 2018<br />
+		The JW Marriott Essex House</em>	
+	</a>
+	</div>
+    
+<!-- 5. Clarion at 60 -->
+    <div class="col-md-4 col-sm-6" align="center">
+	<a href="/events/2017-18-season/clarion_60.html" class="event">
+		<img src="/img/sm_clarion_at_60.jpg" class="img-responsive">
+		<h5>Clarion At 60</h5>
+		<em>23 May 2018<br />
+		St. Jean Baptiste</em>	
+	</a>
+	</div>
+    
+<!-- 6. Clarion Collegium Week -->
+    <div class="col-md-4 col-sm-6" align="center">
+	<a href="/events/2017-18-season/education_week.html" class="event">
+		<img src="/img/sm_education.jpg" class="img-responsive">
+		<h5>Clarion Collegium Week</h5>
+		<em>24-30 May 2018<br />
+		Church of the Resurrection</em>	
+	</a>
+	</div>
+
+</div>	<!-- row -->
+
+<!-- End of CANDYBOX - 2017-18 season events -->

@@ -1,0 +1,137 @@
+<!-- CANDYBOX of 2017-18 Season events each in its own div -->
+<!-- Small (sm_) graphics 318 x 208 -->
+<!-- Three/row for sm_ (laptops) and larger; Two/row for sm_ (tablets); One/row for phones -->
+<style type="text/css">
+<!--
+.style1 {color: #FFFFFF}
+-->
+</style>
+
+
+<div class="row">
+
+<!-- col-md-6 for two columns instead of col-md-4 for three columns -->
+<!-- amending original 2016 3 columns, getting rid of 1. and 3. -->
+<!-- then center things instead of flush left -->
+	
+<!-- 20-21 season -->
+	
+<!-- 1. Clarion Online Gala (New Text from SF (28 July email) (Steven supply New Image from Lauren) -->
+    <div class="col-md-4 col-sm-6" align="center">
+	<a href="http://www.clarionsociety.org/events/2020-21-season/online_gala.html" class="event">
+		<!--<img src="/img/sm_masked_ball_2017.jpg" class="img-responsive">-->
+		<img src="/img/sm_rachmaninoff_recording.jpg" class="img-responsive">
+		<h5>Clarion Online Gala</em></h5>
+        <em>1 October 2020<br />
+    &nbsp;</em>	
+	</a>
+    </div>
+
+<!-- 5. Clarion in Central Park 17 October 2020 -->
+    <div class="col-md-4 col-sm-6" align="center">
+	<a href="http://www.clarionsociety.org/events/2020-21-season/park.html" class="event">
+		<!--<img src="/img/sm_BeethovenBust.jpg" class="img-responsive">-->
+		<img src="/img/sm_CentralParkClarion2.jpg" class="img-responsive">
+		<h5>Clarion in Central Park</em></h5>
+        <em>17 October 2020<br />
+    &nbsp;</em>	
+	</a>
+    </div>
+
+<!-- NY Eve Toast 31 December 2020 temporariy displaces Talin. Restore on 1 Jan 2021 -->
+    <div class="col-md-4 col-sm-6" align="center">
+	<a href="http://www.clarionsociety.org/events/2020-21-season/toast.html" class="event">
+		<img src="/img/sm_ny_toast.jpg" class="img-responsive">
+		<h5>New Year's Toast</em></h5>
+        <em>31 December 2020<br />
+    &nbsp;</em>	
+	</a>
+    </div>
+
+<!-- 4. Josquin Marathon Week at the Met Cloisters 10 April 2021  New Image New Text Lauren 29 July email -->
+    <div class="col-md-4 col-sm-6" align="center">
+	<a href="http://www.clarionsociety.org/events/2020-21-season/josquin.html" class="event">
+		<img src="/img/sm_Josquin.jpg" class="img-responsive">
+        <h5>Josquin Marathon</h5>
+    <!--<em>13 February 2020<br />-->
+	    <em>10 April 2021<br />
+    Clarion at the Met Cloisters</em>	        
+    </a>
+
+	</div>	
+
+<!-- 5. Gala at the Metropolitan Club (Christine) 28 April 2021 -->
+   <!-- <div class="col-md-4 col-sm-6" align="center">
+	<a href="http://www.clarionsociety.org/events/2020-21-season/gala.html" class="event">
+		<img src="/img/sm_masked_ball_2018.jpg" class="img-responsive">
+		<h5>Gala at the Metropolitan Club</em></h5>
+        <em>28 April 2021<br />
+    Honoring Christine Stonbely</em>	
+	</a>
+    </div>	-->
+
+<!-- 6. Clarion Collegium Week 1-5 June 2021 Same Image / Same Text (change dates and remove COVID) -->	
+    <div class="col-md-4 col-sm-6" align="center">
+	<a href="http://www.clarionsociety.org/events/2020-21-season/education_week.html" class="event">
+		<img src="/img/sm_education.jpg" class="img-responsive">
+		<h5>Clarion Collegium Week</h5>
+		<em>1-5 June 2021<br />
+			Church of the Resurrection</em>
+    </a>	
+    </div>
+
+<!-- 3. Medtner and Tchaikovsky Winter 2021 -->
+    <div class="col-md-4 col-sm-6" align="center">
+	<a href="http://www.clarionsociety.org/events/2020-21-season/modern.html" class="event">
+		<img src="/img/ilya_sm.jpg" class="img-responsive">
+        <h5>Medtner and Tchaikovsky</h5>
+    <!--<em>13 February 2020<br />-->
+	    <em>Autumn 2021<br />
+    St. Bartholomew's Church</em>	        
+    </a>
+	</div>			
+
+<!-- 2. Tallis' Christmas Mass at the Met Dec 2020 New Image New Text Lauren 29 July email -->
+	<!--<div class="col-md-4 col-sm-6" align="center">	
+	<a href="http://www.clarionsociety.org/events/2020-21-season/tallis.html" class="event">
+    <img src="/img/sm_Tallis.jpg" class="img-responsive" />    
+	<h5>Tallis Christmas Mass&nbsp;</h5>
+        <em>December 2021<br />
+        Clarion at the Met</em>	
+	</a>	
+	</div>		
+		Talis is hidden to accommodate 2020 NYE Toast 13 Nov 2020 Reinstate on 1 Jan 2021-->		
+
+	
+<!-- 1. The Motets of Bach & Brahms -->
+<!--
+	<div class="col-md-4 col-sm-6" align="center">	
+	<a href="http://www.clarionsociety.org/events/2019-20-season/motets.html" class="event">
+    <img src="/img/motets_sm.jpg" class="img-responsive" />    
+	<h5>Motets of Bach & Brahms</h5>
+        <em>26 September 2019<br />
+        Church of St. Jean Baptiste</em>	
+	</a>	
+	</div> -->
+
+<!-- 2. Rachmaninoff's Vespers -->
+    
+<!-- 3. Orchestra Modern Performs Medtner and Tchaikovsky -->
+    
+<!-- 4.Clarion Masked Gala -->
+
+<!-- 5. J.S. Bach: Mass in B minor -->
+	<!--
+<div class="col-md-4 col-sm-6" align="center">
+	<a href="http://www.clarionsociety.org/events/2019-20-season/bminor.html" class="event">
+		<img src="/img/bminor_sm.jpg" class="img-responsive">
+        <h5>Bach Mass in B minor</h5>
+    	<em>5 May 2020<br />Church of St. Jean Baptiste</em>
+	</a>
+	</div>-->
+    
+<!-- 6. Clarion Collegium Week -->
+
+</div>	<!-- row -->
+
+<!-- End of CANDYBOX - 2017-18 season events -->

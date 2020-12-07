@@ -1,0 +1,29 @@
+.archive {
+	margin: 50px 0;
+}
+
+.archive h4.title {
+	color: black;
+}
+
+.archive h5 {
+	color: black;
+}
+
+.archive .nav-pills {
+	font-style: normal;
+	margin: 60px 0;
+}
+
+.archive .nav-pills>li>a, .archive .nav-pills>li.active>a:hover {
+	border-width: 6px;
+}
+
+.archive .nav-pills>li.active>a h2, .archive .nav-pills>li>a:hover h2 {
+	color: rgb(120, 177, 109);
+}
+
+.nav-pills h2 {
+	margin: 1px -2px 1px 5px;
+	color: #b7b7b7;
+}

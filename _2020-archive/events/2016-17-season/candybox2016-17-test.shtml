@@ -1,0 +1,82 @@
+<!-- CANDYBOX of 2016-17 Season events each in its own div -->
+<!-- Small (sm_) graphics 318 x 208 -->
+<!-- Three/row for sm_ (laptops) and larger; Two/row for sm_ (tablets); One/row for phones -->
+<style type="text/css">
+<!--
+.style1 {font-size: 9px}
+.style2 {font-size: 10px}
+.style3 {font-size: 12px}
+-->
+</style>
+
+
+<div class="row">
+
+<!-- col-md-6 for two columns instead of col-md-4 for three columns -->
+<!-- amending original 2016 3 columns, getting rid of 1. and 3. -->
+<!-- then center things instead of flush left -->
+
+<!-- re-orderd out of time sequence for MPL 1 Feb 2017:  0 2 4 // 5 6 ==> 4 5 6 // 1 2 -->
+
+
+<!-- Row 1 (4 6) --> 
+   
+<!-- A1. 4. Mozart Magic Flute Spring 2017 -->
+    <div class="col-md-4 col-sm-6" align="center">
+      <a href="/events/2016-17-season/magic-flute.html" class="event">
+        <img src="/img/sm_magic_flute_teatro_barrio.jpg" class="img-responsive">
+      <h5>Clarion Opera: The Magic Flute</h5>
+          <em>11, 13 March 2017 - El Teatro of El Museo del Barrio</em></a></div>
+    
+<!-- A2. 5. Clarion Masked Ball at Essex House Spring 2017 -->
+    <div class="col-md-4 col-sm-6" align="center">
+      <a href="/events/2016-17-season/masked-ball-2017.html" class="event">
+      <img src="/img/sm_masked_ball_2017.jpg" class="img-responsive">
+          <h5>Clarion Masked Gala</h5>
+          <em>4 April 2017 - The Essex House</em></a></div> 
+
+<!-- A3. 6. Clarion Collegium Week Spring 2017 -->
+    <div class="col-md-4 col-sm-6" align="center">
+      <a href="/events/2016-17-season/clarion-education-week-2017.html" class="event">
+      <img src="/img/sm_education.jpg" class="img-responsive">          
+          <h5>Clarion Collegium Week</h5>
+          <em>23-30 April 2017 - Church of the Resurrection</em></a></div>
+
+<!-- Row 2 (6 6) -->
+	
+<!-- B1. 0. CD party links to event   -->	
+    <div class="col-md-6 col-sm-6" align="center">	
+      <a href="http://www.clarionsociety.org/events/2016-17-season/grammy.html" class="event">
+      <img src="/img/sm_CD COVER.jpg" class="img-responsive">
+      	  <h5>Passion Week CD</h5>
+          <em>2017 GRAMMY Nominee</em></a></div> 
+
+<!-- B2. 2. Clarion Russian tour Patron Package 22-29 Oct 2016 link to tour, history, venues -->
+ 	
+    <div class="col-md-6 col-sm-6" align="center">	
+      <a href="/events/2016-17-season/russian-tour.html" class="event">
+      <img src="/img/sm_bolshoi_zal__philarmonii full.jpg" border="10" class="img-responsive" /></a>
+      <h5>Clarion on tour</h5>
+   	      <em>23-30 October 2016 - St. Petersburg, Moscow, London</em></a></div>
+
+<!-- Leftovers from way back. -->
+	
+<!-- 1. Debut CD image links to release date and how to purchase -->
+	<!-- 	
+    <div class="col-md-4 col-sm-6">	
+      <a href="/events/2015-16-season/mozart-grand-mass-in-c-minor.html" class="event">
+      <img src="/img/sm_CD COVER and TEXT.jpg" class="img-responsive">
+      	  <h5>The Clarion Choir's debut CD</h5>
+          <em>How to Purchase</em>      </a>    </div>  -->
+          
+<!-- 3. Clarion Russian tour Patron Package 22-29 Oct 2016 link to tour, history, venues (in Russian) -->
+	<!--	
+    <div class="col-md-4 col-sm-6">
+      <a href="/events/2015-16-season/rachmaninoff-liturgy.html" class="event">
+      <img src="/img/sm_winter_palace.jpg" class="img-responsive">
+          <h5>Clarion Russian Tour (Russian)</h5>
+          <em>St. Petersburg, Moscow</em>      </a>    </div> -->
+          
+</div>	<!-- row -->
+
+<!-- End of CANDYBOX - 2015-16 season events -->

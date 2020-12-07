@@ -1,0 +1,72 @@
+<!-- 1st header row: Subscribe Donate Facebook -->
+<header class="row header">
+
+  <form id="donation-form" action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="1532068">
+    	<ul class="nav navbar-nav nav-pills pull-right hidden-xs">
+        
+        <!-- include next line only for seasons that offer subscriptions -->
+		<!--
+		<li class="active"><a href="/events/subscribe.html">Subscribe</a></li>
+																				-->
+        <!-- previous line used for subscription seasons -->
+        
+        <!-- Redirect DONATE link to the old CONTRIBUTE link page 8/14/2019 -->
+        <!--
+      	<li class="active"><a onClick="document.getElementById('donation-form').submit();" 
+      	style="cursor:pointer;">Donate</a></li>-->
+        <!-- New destination for DONATE link 8/14/2019 -->
+        <li class="active"><a href="contribute.html">Donate</a></li>
+        
+      	<li><a href="http://www.facebook.com/clarionmusicsociety" target="_blank">Facebook</a></li>
+    	</ul>
+  </form>
+  
+</header>
+
+<!-- 2nd header row: LOGO Steven Director About ... Contact -->
+<!-- Add PRESS after MEDIA in persistent nagivation 8/14/2019 -->
+<header class="row header">
+
+  <div class="col-md-5 col-sm-3 col-xs-5">      
+    <div class="col-md-6">    
+      <a href="/">
+        <div class="logo">
+          <img src="/img/logo.png">
+        </div>
+      </a>
+    </div>
+    <nav class="col-lg-6 hidden-md hidden-sm hidden-xs navbar fox">
+      <ul class="nav navbar-nav">    	
+        <li>	<a class="page-link" href="/about.html#stevenfox">
+        <h4>Steven Fox</h4>Artistic Director</a></li>
+      </ul>
+    </nav>
+  </div>
+  <nav class="navbar pull-right" role="navigation">
+    <div class="navbar-header">    
+      <button 	type="button" class="navbar-toggle" 
+      			data-toggle="collapse" 
+                data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">    
+      <ul class="nav navbar-nav">  
+          <li class=""><a class="page-link" href="/about.html">About</a></li>
+          <li class=""><a class="page-link" href="/events/2020-21-season/schedule.html">Schedule</a></li>
+          <li class=""><a class="page-link" href="/media.html">Media</a></li>
+          <!-- move press from media page to its own page 8/14/2019 -->
+          <li class=""><a class="page-link" href="/press.html">Press</a></li>
+          <li class=""><a class="page-link" href="/events/2020-21-season/education_week.html">Education</a></li>
+          <!-- remove contribute link 8/14/2019 --> 
+          <!-- <li class=""><a class="page-link" href="/contribute.html">Contribute</a></li> -->
+          <li class=""><a class="page-link" href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,67 @@
+<!-- CANDYBOX of 2015-6 Season events each in its own div -->
+<!-- Small (sm_) graphics 318 x 208 -->
+<!-- Three/rox for sm_ (laptops) and larger; Two/row for sm_ (tablets); One/row for phones -->
+
+<div class="row">
+	
+<!-- 1. Mozart's Grand Mass in C Minor 17 Sept 2015 -->	
+    <div class="col-md-4 col-sm-6">	
+      <a href="/events/2015-16-season/mozart-grand-mass-in-c-minor.html" class="event">
+        <img src="/img/sm_mozart.jpg" class="img-responsive">
+      	  <h5>Mozart's Grand Mass in C Minor</h5>
+          <em>09.17.2015 - Church of St. Jean Baptiste </em>
+      </a>
+    </div>
+
+<!-- 2. A Viennese Reverie with Principals of the Clarion Orchestra 22 Oct 2015 -->	
+    <div class="col-md-4 col-sm-6">	
+      <a href="/events/2015-16-season/clarion-principals.html" class="event">
+        <img src="/img/sm_Bach_Haydn.jpg" class="img-responsive">
+      	  <h5>Principals <br />
+   	      of the Clarion Orchestra</h5>
+   	  <em>10.22.2015 - St. Bartholomew's Church</em>
+      </a>
+    </div>
+
+<!-- 3. Rachmaninoff at Trinity Wall Street 31 Dec 2015, 3 Jan 2016 -->
+    <div class="col-md-4 col-sm-6">
+      <a href="/events/2015-16-season/rachmaninoff-liturgy.html" class="event">
+        <img src="/img/sm_rachmaninoff_liturgy.jpg" class="img-responsive">
+          <h5>Rachmaninoff <br />at Trinity Wall Street</h5>
+          <em>12.31.2015, 1.03.2016 - St. Paul's Chapel</em><br /><em>&nbsp;</em>
+         
+      </a>
+    </div>
+          <!--   <em>12.31.2015 - Trinity Wall Street<br />1.03.2016 - St. Paul's Chapel</em>-->
+
+<!-- 5. Rossini, Donizetti and Chang 14 April 2016 -->
+    <div class="col-md-4 col-sm-6">
+      <a href="/events/2015-16-season/rossini-donizetti-chang.html" class="event">
+        <img src="/img/sm_teatro_argentino_rome_mario_chang.jpg" class="img-responsive">
+          <h5>The Clarion Orchestra and <br />
+          Mario Chang</h5>
+      <em>04.12.2016 - Park Avenue Christian Church</em>
+      </a>
+    </div>
+
+<!-- 6. Clarion at the Met (Taverner) 29 April 2016 -->
+    <div class="col-md-4 col-sm-6">
+      <a href="/events/2015-16-season/taverner.html" class="event">
+        <img src="/img/sm_MedievalSculptureHall.jpg" class="img-responsive">
+          <h5>Clarion at the Metropolitan Museum of Art</h5>
+          <em>04.29.2016 - The Metropolitan Museum of Art</em>
+      </a>
+    </div> 
+
+<!-- 4. Clarion Masked Ball Spring 2016 -->
+    <div class="col-md-4 col-sm-6">
+      <a href="/events/2015-16-season/clarion-masked-ball-2016.html" class="event">
+        <img src="/img/sm_masked_ball_2016.jpg" class="img-responsive">
+          <h5>Clarion Masked Ball</h5>
+          <em>05.11.2016 - The Cosmopolitan Club</em><br /><br />&nbsp;<br />&nbsp;    
+      </a>
+    </div>
+
+</div>	<!-- row -->
+
+<!-- End of CANDYBOX - 2015-16 season events -->

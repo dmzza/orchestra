@@ -1,0 +1,66 @@
+<!-- CANDYBOX of 2015-6 Season events each in its own div -->
+<!-- Small (sm_) graphics 318 x 208 -->
+<!-- Boxes flow (wrapped) across the page -->
+<!-- Normally browser 3 per row -->
+
+<div class="row">
+	
+<!-- 1. Mozart 17 Sept 2015 -->	
+    <div class="col-md-4 col-sm-6">	
+      <a href="/events/2015/mozart-grand-mass-in-c-minor.html" class="event">
+        <img src="/img/sm_mozart.jpg" class="img-responsive">
+      	  <h5>Mozart's Grand Mass in C Minor</h5>
+      	  <em>09.17.2015 Church of St. John Baptiste </em>
+      </a>
+    </div>
+
+<!-- 2. Principals of the Clarion Orchestra 22 Oct 2015 -->	
+    <div class="col-md-4 col-sm-6">	
+      <a href="/events/2015/clarion_principals.html" class="event">
+        <img src="/img/sm_Principals_black.jpg" class="img-responsive">
+      	  <h5>Clarion Orchestra Principals</h5>
+      	  <em>10.22.2015 Concert Venue</em>
+      </a>
+    </div>
+
+<!-- 3. Rachmaninoff Liturgy 31 Dec 2015, 3 Jan 2016 -->
+    <div class="col-md-4 col-sm-6">
+      <a href="/events/2015/rachmaninoff-liturgy.html" class="event">
+        <img src="/img/sm_rachmaninoff_liturgy.jpg" class="img-responsive">
+          <h5>Rachmaninoff's Liturgy</h5>
+          <em>12.31.2015, 1.3.2016 St. Paul's Chapel</em>
+      </a>
+    </div>
+
+<!-- 4. Clarion Masked Ball Spring 2016 -->
+    <div class="col-md-4 col-sm-6">
+      <a href="/events/2016/clarion-masked-ball-2016.html" class="event">
+        <img src="/img/sm_masked_ball.jpg" class="img-responsive">
+          <h5>Clarion Masked Ball</h5>
+          <em>Spring 2016 The Cosmopolitan Club</em>
+      </a>
+    </div>
+
+<!-- 5. Donizetti / Rossini (Mario Chang) 14 April 2016 -->
+    <div class="col-md-4 col-sm-6">
+      <a href="/events/2016/donizetti_rossini.html" class="event">
+        <img src="/img/sm_teatro_argentino_rome_mario_chang.jpg" class="img-responsive">
+          <h5>Donizetti / Rossini with Mario Chang</h5>
+          <em>14 April 2016</em>
+      </a>
+    </div>
+
+<!-- 6. Clarion Education Week 4-11 June 2016 -->
+    <div class="col-md-4 col-sm-6">
+      <a href="/events/2016/clarion-education-week.html" class="event">
+        <img src="/img/sm_education.jpg" class="img-responsive">
+          <h5>Clarion Education Week</h5>
+          <em>4-11 June 2016 Church of the Resurrection</em>
+      </a>
+    </div>
+
+</div>
+
+<!-- End of CANDYBOX -->
+<!-- End div class = "row"> -->
+<!-- End of Season content -->

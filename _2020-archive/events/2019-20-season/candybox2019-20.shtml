@@ -1,0 +1,79 @@
+<!-- CANDYBOX of 2017-18 Season events each in its own div -->
+<!-- Small (sm_) graphics 318 x 208 -->
+<!-- Three/row for sm_ (laptops) and larger; Two/row for sm_ (tablets); One/row for phones -->
+<style type="text/css">
+<!--
+.style1 {color: #FFFFFF}
+-->
+</style>
+
+
+<div class="row">
+
+<!-- col-md-6 for two columns instead of col-md-4 for three columns -->
+<!-- amending original 2016 3 columns, getting rid of 1. and 3. -->
+<!-- then center things instead of flush left -->
+
+	
+<!-- 1. The Motets of Bach & Brahms -->	
+	<div class="col-md-4 col-sm-6" align="center">	
+	<a href="http://www.clarionsociety.org/events/2019-20-season/motets.html" class="event">
+    <img src="/img/motets_sm.jpg" class="img-responsive" />    
+	<h5>Motets of Bach & Brahms</h5>
+        <em>26 September 2019<br />
+        Church of St. Jean Baptiste</em>	
+	</a>	
+	</div> 
+
+<!-- 2. Rachmaninoff's Vespers -->	
+	<div class="col-md-4 col-sm-6" align="center">	
+	<a href="http://www.clarionsociety.org/events/2019-20-season/vespers.html" class="event">
+		<img src="/img/sm_russian_new_year.jpg" class="img-responsive">
+        <h5>Rachmaninoff's Vespers</h5>
+		<em>31 December 2019 & 1 January 2020<br />
+        Church of the Resurrection</em>	
+	</a>
+    </div>            
+    
+<!-- 3. Orchestra Modern Performs Medtner and Tchaikovsky -->
+    <div class="col-md-4 col-sm-6" align="center">
+	<a href="http://www.clarionsociety.org/events/2019-20-season/modern.html" class="event">
+		<img src="/img/ilya_sm.jpg" class="img-responsive">
+        <h5>Medtner and Tchaikovsky</h5>
+    <!--<em>13 February 2020<br />-->
+	    <em>Autumn 2020<br />
+    St. Bartholemew's Church</em>	        
+    </a>
+	</div>
+    
+<!-- 4.Clarion Masked Gala -->
+    <div class="col-md-4 col-sm-6" align="center">
+	<a href="http://www.clarionsociety.org/events/2019-20-season/gala.html" class="event">
+		<img src="/img/sm_masked_ball_2018.jpg" class="img-responsive">
+		<h5>Clarion Masked Gala</em></h5>
+        <em>1 October 2020<br />
+    The Metropolitan Club</em>	
+	</a>
+    </div>
+
+<!-- 5. J.S. Bach: Mass in B minor -->
+	<div class="col-md-4 col-sm-6" align="center">
+	<a href="http://www.clarionsociety.org/events/2019-20-season/bminor.html" class="event">
+		<img src="/img/bminor_sm.jpg" class="img-responsive">
+        <h5>Bach Mass in B minor</h5>
+    	<em>5 May 2020<br />Church of St. Jean Baptiste</em>
+	</a>
+	</div>
+    
+<!-- 6. Clarion Collegium Week -->
+    <div class="col-md-4 col-sm-6" align="center">
+	<a href="http://www.clarionsociety.org/events/2019-20-season/education_week.html" class="event">
+		<img src="/img/sm_education.jpg" class="img-responsive">
+		<h5>Clarion-Collegium Week</h5>
+		<em>1-7 June 2020<br />Church of the Resurrection</em>
+    </a>	
+    </div>
+
+</div>	<!-- row -->
+
+<!-- End of CANDYBOX - 2017-18 season events -->

@@ -1,0 +1,390 @@
+body {
+	padding: 25px 40px;
+	background-color: rgb(253,253,253);
+}
+
+.container {
+	max-width: 1046px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: rgb(120, 177, 109);
+}
+
+h1 {
+	font-size: 4.5em;
+	font-weight: 700;
+	letter-spacing: 10px;
+	text-align: center;
+	margin-top: 45px;
+}
+
+h2 {
+	font-size: 2.7em;
+	letter-spacing: 8px;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 800;
+	letter-spacing: 4px;
+	line-height: 1;
+}
+
+h4 {
+	font-size: 1.4em;
+	font-weight: 700;
+	letter-spacing: 4px;
+}
+
+h5 {
+	font-size: 0.9em;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	line-height: 2em;
+}
+
+h6 {
+	font-size: 0.65em;
+	letter-spacing: 2px;
+	color: #111;
+}
+
+p, blockquote p, li {
+	font-family: "adobe-caslon-pro", serif;
+	font-weight: normal;
+	font-size: 12px;
+
+	letter-spacing: 0.5px;
+	line-height: 1.7;
+	color:rgb(97,97,97);
+}
+
+p, blockquote p {
+	font-size: 1.15em;
+}
+
+p em {
+	font-size: 1em;
+}
+
+em, dd {
+	font-family: "adobe-caslon-pro", serif;
+	font-style: italic;
+	font-size: 1.15em;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+}
+
+dt {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size:1.2em;
+	letter-spacing: 1.5px;
+	line-height: 2.5;
+	margin-top: 20px;
+}
+
+hr {
+	height: 9px;
+	background: url('/img/squiggle.png') no-repeat 50% 50%;
+	border:0;
+	padding: 40px 0;
+}
+
+h1 + hr {
+	padding-top: 0;
+	margin-bottom: 40px;
+	margin-top: -15px;
+}
+
+a {
+	color: rgb(136, 86, 254);
+}
+
+section {
+	padding: 40px 0;
+}
+
+article {
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+article h4 {
+	text-align: left;
+}
+
+article h5 {
+	color: rgb(97, 97, 97);
+	text-transform: none;
+}
+
+article li {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+	line-height: 2.5;
+	list-style: none;
+}
+
+article a {
+	text-decoration: underline;
+	color: rgb(97, 97, 97);
+}
+
+article a:hover, article a:hover h5 {
+	color: rgb(120, 177, 109);
+}
+
+hr + h3 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgb(120, 177, 109);
+}
+
+.btn-default, .btn-default:hover {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(120, 177, 109);
+	border: 5px solid rgb(120, 177, 109);
+	background-color: transparent;
+	border-radius: 0;
+	padding: 10px 15px;
+}
+
+.btn-danger, .btn-danger:hover {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(231, 18, 61);
+	border: 5px solid rgb(231, 18, 61);
+	background-color: transparent;
+	border-radius: 0;
+	padding: 10px 15px;
+	cursor: default;
+}
+
+.panel-clarion {
+	border-color:rgb(120, 177, 109);
+	border-width:4px;
+}
+
+.panel-clarion>.panel-heading, .panel-clarion .panel-heading {
+	margin-top:0;
+	color: white;
+	background-color: rgb(120, 177, 109);
+	border-color: rgb(120, 177, 109);
+	border-radius:0;
+}
+
+.panel-footer h5.pull-right {
+	margin-top:-15px;
+}
+
+.black {
+	color: rgb(97, 97, 97);
+}
+
+.logo {
+	text-align: left;
+	margin-top: -30px;
+	margin-bottom: 10px;
+}
+
+.logo img {
+	width: 192px;
+}
+
+.fox .nav {
+	margin-top:-38px;
+}
+
+.col-xs-12>img {
+	margin: 0px auto 15px auto;
+}
+
+.nav li>a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	letter-spacing:0.16em;
+	color:rgb(97,97,97);
+}
+
+.nav-pills {
+	text-transform:uppercase;
+	font-size: 0.8em;
+}
+
+.nav-pills>li>a {
+	border-radius: 0;
+	border:2px solid transparent;
+	padding: 4px 9px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li>a:hover {
+	color: rgb(120, 177, 109);
+	background-color: transparent;
+}
+
+.nav-pills>li.active>a {
+	border:2px solid rgb(120, 177, 109);
+}
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar ul {
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	margin-right: 0;
+}
+
+.navbar ul>li>a {
+	padding: 15px 11px;
+}
+
+.navbar ul>li>a:hover {
+	background-color: transparent;
+	color: rgb(120, 177, 109);
+}
+
+.navbar ul>li.divider {
+	font-weight: 700;
+	color: rgb(120, 177, 109);
+	padding: 15px 0;
+}
+
+.navbar ul>li.active>a {
+	color: rgb(120, 177, 109);
+}
+
+.navbar-collapse {
+	padding: 0;
+}
+
+.navbar-toggle {
+	background-color: white;
+	border-color: rgb(120, 177, 109);
+	margin-top: -35px;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: rgb(120, 177, 109);
+}
+
+.header nav {
+	margin-top: 36px;
+	margin-bottom: 17px;
+}
+
+.container .jumbotron {
+	border-radius: 0px;
+	height: 480px;
+	margin-bottom: 15px;
+}
+
+.event {
+	margin-bottom: 40px;
+	display: block;
+	color: rgb(97, 97, 97);
+}
+
+.event h5 {
+	margin-bottom: 3px;
+}
+
+.tab { 
+	margin-left: 40px;
+}
+
+.form-control {
+	border:0;
+	border-bottom: 3px solid #999;
+	border-radius: 0;
+	box-shadow: none;
+	background: transparent;
+	padding-left: 0;
+	margin-top: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.4em;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	height: 50px;
+	width: 93%;
+}
+
+.form-control:focus {
+	box-shadow: none;
+	border-color: #999;
+}
+
+.map {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	width: 100%;
+}
+
+.copyright {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	color: rgb(149,149,149);
+	margin-top: 50px;
+}
+
+.blank {
+	height:208px;
+	width:100%;
+	background-color:#eee;
+}
+
+div.blank {
+	margin-bottom:80px;
+}
+
+img.blank {
+	content:url("../img/blank.gif")
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.btcf:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.group:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */

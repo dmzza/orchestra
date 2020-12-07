@@ -1,0 +1,28 @@
+.mini-feature {
+	text-align: center;
+}
+
+.mini-feature img.hover {
+	display: none;
+}
+
+.mini-feature:hover img {
+	display: none;
+}
+
+.mini-feature:hover img.hover {
+	display: block;
+}
+
+.mini-feature img {
+	margin-top: 15px;
+	width: 100%;
+}
+
+.sponsors {
+	text-align: center;
+}
+
+.details h5 {
+	margin-top: 30px;
+}
