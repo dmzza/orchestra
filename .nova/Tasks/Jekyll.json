@@ -1,8 +1,12 @@
 {
   "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nbundle exec jekyll build"
+    },
     "run" : {
       "enabled" : true,
-      "script" : "bundle exec jekyll serve --baseurl '' -w"
+      "script" : "#!\/bin\/sh\nbundle exec jekyll serve --baseurl '' -w"
     }
   },
   "identifier" : "310313AB-D924-429C-B1DC-036CB90045D1",
