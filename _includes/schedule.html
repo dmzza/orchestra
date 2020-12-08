@@ -5,7 +5,7 @@
     <div class="col-md-4 col-sm-6">
       <a href="{{ event.url | prepend: site.baseurl }}" class="event">
         {% if event.thumbnail %}
-          <img src="{{ event.thumbnail | prepend: site.baseurl }}" class="img-responsive">
+          {% include image.html path=event.thumbnail filetype=event.image_filetype alt=event.title %}
         {% else %}
           <img src="" class="img-responsive blank">
         {% endif %}

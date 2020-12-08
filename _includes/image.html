@@ -1,0 +1,15 @@
+{% comment %} 
+How to use:
+ {% include image.html path="/img/filename" filetype="jpg" alt="Description of this image" %}
+{% endcomment %}
+
+{% assign path = include.path | prepend: site.baseurl %}
+{% assign extension = include.filetype | prepend: '.' %}
+<img src="{{ path | append: extension }}" 
+	srcset="
+	  {{ path | append: extension }},
+	  {{ path | append: '@2x' | append: extension }} 2x,
+	  {{ path | append: '@3x' | append: extension }} 3x"
+	alt="{{ include.alt }}"
+	class="img-responsive"
+>

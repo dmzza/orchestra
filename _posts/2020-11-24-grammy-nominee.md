@@ -1,8 +1,9 @@
 ---
 layout: event
 title:  "2021 Grammy Nominee"
-thumbnail: "/img/sm_grammy_nominee.png"
-hero: "/img/lg_grammy_nomination.jpg"
+thumbnail: "/img/sm_grammy_nominee"
+hero: "/img/lg_grammy_nomination"
+image_filetype: "png"
 season: "2021"
 shortdate:   "11.24"
 longdate: "24 November 2020"

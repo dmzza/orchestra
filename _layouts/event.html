@@ -4,7 +4,7 @@ layout: default
 {% if page.hero %}
 <div class="row">
   <div class="col-xs-12 hidden-xs">
-    <img src="{{ page.hero | prepend: site.baseurl }}" class="img-responsive">
+    {% include image.html path=page.hero filetype=page.image_filetype alt=page.title %}
   </div>
 </div>
 {% endif %}
