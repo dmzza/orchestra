@@ -298,6 +298,18 @@ a:hover {
 	margin-bottom: 17px;
 }
 
+.youtube {
+	/* filter: hue-rotate(-85deg) brightness(100%) saturate(50%) invert(100%); */
+	filter: contrast(60%) brightness(180%) saturate(50%) hue-rotate(105deg);
+	background: #e62117; 
+	padding: 4px 5px 0 5px; 
+	margin-right:14px; 
+	box-shadow: inset 0px -2px 0 2px white;
+}
+.youtube:hover {
+	background: #cc181e;
+}
+
 .container .jumbotron {
 	border-radius: 0px;
 	height: 480px;
