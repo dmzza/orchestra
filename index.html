@@ -9,12 +9,12 @@ style: "/css/index.css"
   </div>
   <div class="col-sm-6">
     <a href="{{ site.baseurl }}{% post_url 2020-11-24-grammy-nominee %}">
-      <img src="{{ site.baseurl }}/img/md_grammy_nominee.png" class="img-responsive">
+      {% include image.html path="/img/md_grammy_nominee" filetype="png" alt="Learn more about Clarion's 2021 Grammy Nominations" %}
     </a>
   </div>
   <div class="col-sm-6">
     <a href="{{ site.baseurl }}/discography.html">
-      <img src="{{ site.baseurl }}/img/md_buy_recordings.jpg" class="img-responsive">
+      {% include image.html path="/img/md_buy_recordings" filetype="jpg" alt="Buy Recordings" %}
     </a>
   </div>
 </div>
